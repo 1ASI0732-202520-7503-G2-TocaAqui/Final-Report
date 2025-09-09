@@ -230,22 +230,16 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
   - [Video About-the-Team](#video-about-the-team)  
   - [Bibliografía](#bibliografía)  
   - [Anexos](#anexos)  
-
-
-
-
-
-
 # Student Outcome
 **ABET – EAC - Student Outcome 4**
 
 *Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.*
 
-Enelsiguiente cuadro se describe las accionesrealizadas y enunciados de conclusiones
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones
 por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
 EAC - Student Outcome 4
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** |Nelson Fabrizzio Pereira Vasquez <br>TB1<br> | |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | Nelson Fabrizzio Pereira Vasquez<br> TB1<br> |  |
+| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | Nelson Fabrizzio Pereira Vasquez <br> TB1 <br> Elaboré la sección de Experiment-Driven Development y la documentación de entrevistas de validación. | Se evidencia la capacidad de identificar responsabilidades éticas y profesionales en el desarrollo de software. |
+| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | Nelson Fabrizzio Pereira Vasquez <br> TB1 <br> Analicé resultados de experimentos, planificación de software pre-lanzamiento y flujo de aprendizaje continuo. | Se demuestra la capacidad de tomar decisiones informadas considerando impactos globales, económicos, ambientales y sociales. |
