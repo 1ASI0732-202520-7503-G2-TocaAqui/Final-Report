@@ -249,3 +249,14 @@ EAC - Student Outcome 4
 ## 1.1. Startup Profile
 
 TocaAquí es una startup tecnológica dedicada a transformar la industria musical independiente en el Perú y Latinoamérica. Nuestra plataforma web conecta a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, facilitando la contratación directa, la gestión de espacios disponibles, la logística, la programación y la promoción de eventos musicales. TocaAquí surge como respuesta a la informalidad y falta de visibilidad que enfrentan los artistas independientes, brindando una solución digital integral que profesionaliza el proceso de contratación y organización de presentaciones en vivo. Nuestra visión es democratizar el acceso a escenarios reales para músicos emergentes, promoviendo la transparencia, la seguridad y el crecimiento sostenible del ecosistema musical.
+
+
+### 1.1.1. Descripción de la Startup
+
+TocaAquí es una plataforma web que conecta a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, permitiendo no solo la contratación directa, sino también la gestión de espacios disponibles, logística, programación y promoción de eventos musicales.
+
+En ella, los espacios (como bares o discotecas) publican su disponibilidad por fecha, tipo de música y ubicación. Las bandas pueden postularse según afinidad, revisar restricciones y agendar su presentación.
+
+El sistema también permite la generación y firma de contratos digitales, el manejo de pagos seguros (escrow), programación de eventos (agenda compartida), y promoción automatizada con generación de entradas digitales.
+
+Cada presentación incluye procesos internos como validación del rider técnico, seguimiento de la agenda, control de asistencia y evaluación post-evento.
