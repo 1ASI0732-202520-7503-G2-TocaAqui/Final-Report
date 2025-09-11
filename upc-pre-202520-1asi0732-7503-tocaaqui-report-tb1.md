@@ -46,7 +46,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
 
 [Part I: As-Is Software Project](#part-i-:-as-is-software-project)  
 
-- 1. [Capítulo I: Introducción](#1-capítulo-i-introducción)  
+- 1. [Capítulo I: Introducción](#capítulo-i-introducción)  
   - 1.1. [Startup Profile](#11-startup-profile)  
     - 1.1.1. [Descripción de la Startup](#111-descripción-de-la-startup)  
     - 1.1.2. [Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
@@ -243,3 +243,9 @@ EAC - Student Outcome 4
 |---------------------|---------------------|--------------|
 | **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | Nelson Fabrizzio Pereira Vasquez <br> TB1 <br> Elaboré la sección de Experiment-Driven Development y la documentación de entrevistas de validación. | Se evidencia la capacidad de identificar responsabilidades éticas y profesionales en el desarrollo de software. |
 | **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | Nelson Fabrizzio Pereira Vasquez <br> TB1 <br> Analicé resultados de experimentos, planificación de software pre-lanzamiento y flujo de aprendizaje continuo. | Se demuestra la capacidad de tomar decisiones informadas considerando impactos globales, económicos, ambientales y sociales. |
+
+# **Capítulo I: Introducción**
+
+## 1.1. Startup Profile
+
+TocaAquí es una startup tecnológica dedicada a transformar la industria musical independiente en el Perú y Latinoamérica. Nuestra plataforma web conecta a músicos emergentes con bares, discotecas, centros culturales y promotores de eventos, facilitando la contratación directa, la gestión de espacios disponibles, la logística, la programación y la promoción de eventos musicales. TocaAquí surge como respuesta a la informalidad y falta de visibilidad que enfrentan los artistas independientes, brindando una solución digital integral que profesionaliza el proceso de contratación y organización de presentaciones en vivo. Nuestra visión es democratizar el acceso a escenarios reales para músicos emergentes, promoviendo la transparencia, la seguridad y el crecimiento sostenible del ecosistema musical.
