@@ -731,7 +731,6 @@ Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User
 
 ![Artista_user_persona](https://i.imgur.com/dIfXiwF.png)
 
-
 ### 2.3.2 User Task Matrix.
 
 **Artista Independiente:**
@@ -764,4 +763,12 @@ Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User
 | Controlar asistencia y recolectar feedback del público | Sometimes | Medium |
 | Automatizar tareas operativas para ahorrar tiempo | Always | High |
 
+### 2.3.3 User Journey Mapping.
 
+En esta sección, analizaremos el recorrido del usuario al utilizar nuestra plataforma TocaAqui
+
+**Segmento 1: Músicos Independientes** <br>
+![Musicos](https://i.imgur.com/MB9ezBT.png)
+
+**Segmento 2: Promotores** <br>
+![Promotores](https://i.imgur.com/GQW1OPO.png)
