@@ -994,14 +994,7 @@ Este glosario reúne los términos clave utilizados en el desarrollo y uso de la
 | TS66  | Representar componentes del contexto de pagos                         | Como desarrollador, quiero diseñar el **Payments Context** con servicios de comandos y consultas para reflejar el flujo financiero dentro de la plataforma.                      | **Escenario 1: Componentes de pagos diferenciados**<br>**Dado** que se necesita manejar creación y consulta de pagos,<br>**Cuando** se observe el diagrama,<br>**Entonces** deben diferenciarse claramente `PaymentCommandService`, `PaymentQueryService` y `PaymentRepository`.                                                  |
 | TS67  | Integrar todos los contextos en una vista arquitectónica común        | Como desarrollador, quiero unir los contextos de eventos, usuarios y pagos en una sola vista arquitectónica, para entender su comunicación global.                              | **Escenario 1: Vista integral de contextos**<br>**Dado** que existen múltiples contextos separados,<br>**Cuando** se integre el modelo,<br>**Entonces** deben visualizarse claramente sus relaciones e interacciones internas (por ejemplo, eventos relacionados a pagos y usuarios asociados).                                |
 
-## 3.3. Impact Mapping.
-
-![Impact Mapping](https://imgur.com/e7klg9u.png)
-
-
-## 3.4. Product Backlog.
-
-Utilizamos la escala de Fibonacci para la estimación de los Story Points.
+## 3.3. Product Backlog.
 
 | Orden | User Story Id | Título                                                   | Descripción                                                                                                                                                   | Story Points (1/2/3/5/8) |
 |-------|----------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
@@ -1023,3 +1016,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 | 16     | TS04          | Implementación de animaciones y transiciones | Como desarrollador, quiero agregar animaciones y transiciones suaves en la landing page para mejorar la experiencia de usuario. | 5 |
 | 17     | TS05          | Implementación de formularios de contacto | Como desarrollador, quiero que los usuarios puedan contactar con el equipo a través de un formulario en la landing page. | 3 |
 | 18     | TS06          | Despliegue de la Landing Page en GitHub Pages | Como desarrollador, quiero desplegar la landing page de TocaAquí en GitHub Pages para que esté accesible públicamente. | 2 |
+
+## 3.4. Impact Mapping.
+
+![Impact Mapping](https://imgur.com/e7klg9u.png)
