@@ -821,3 +821,26 @@ Finalmente, luego de identificar las fases y organizar ideas, se obtuvo el sigui
 
 ![Paso3](https://i.imgur.com/HsqhGJW.png)
 
+###   2.4 Ubiquitous Language.
+
+**Glosario del dominio de la plataforma TocaAquí**
+
+Este glosario reúne los términos clave utilizados en el desarrollo y uso de la plataforma. Establece un lenguaje común entre usuarios, desarrolladores y stakeholders.
+
+| **Término**                | **Definición clara y compartida** |
+|---------------------------|-----------------------------------|
+| **Artista**               | Músico independiente o banda registrada en la plataforma que busca espacios para tocar en vivo. |
+| **Venue**                 | Bar, discoteca, café cultural u otro lugar físico que organiza eventos musicales y contrata artistas. |
+| **Contratación**          | Proceso de solicitud, selección y confirmación de un artista por parte de un local para una fecha específica. |
+| **Postulación**           | Acción mediante la cual un artista se propone para tocar en una fecha publicada por un local. |
+| **Contrato digital**      | Acuerdo legal generado automáticamente por la plataforma y firmado por ambas partes (artista y local). |
+| **Escrow Payment**        | Sistema de pago seguro en el que el dinero se libera solo después de realizarse el evento según lo acordado. |
+| **Rider técnico**         | Documento que contiene los requerimientos técnicos del artista para su presentación (sonido, luces, etc.). |
+| **Soundcheck**            | Ensayo técnico previo al evento para ajustar equipos de audio e instrumentos en el escenario. |
+| **Agenda compartida**     | Herramienta visual donde locales y artistas pueden ver fechas reservadas, confirmadas y disponibles. |
+| **Promoción del evento**  | Acciones realizadas para visibilizar un show programado (publicación en redes, cartelera digital, etc.). |
+| **Evaluación post-evento**| Sistema de calificación y feedback mutuo entre artistas y locales una vez realizado el evento. |
+| **Postulación filtrada**  | Mecanismo mediante el cual los locales reciben propuestas artísticas según criterios definidos (género, reputación, etc.). |
+| **Logistics Manager**     | Módulo de la plataforma que centraliza todos los detalles técnicos, fechas, contratos y coordinación del evento. |
+
+
