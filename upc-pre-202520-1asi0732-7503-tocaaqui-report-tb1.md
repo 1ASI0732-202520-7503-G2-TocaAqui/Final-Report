@@ -59,7 +59,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
       - 1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
   - 1.3. [Segmentos objetivo](#13-segmentos-objetivo)  
 
-- 2. [Capítulo II: Requirements Elicitation & Analysis](#2-capítulo-ii-requirements-elicitation--analysis)  
+- 2. [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-:-elicitation-&-analysis)  
   - 2.1. [Competidores](#21-competidores)  
     - 2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
     - 2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
@@ -486,3 +486,31 @@ Los segmentos objetivos identificados se definirán en la siguiente tabla:
 |-------------------|------------------------------|-------------------------------------|
 | **Artistas** | Edad: 18 a 40 años.<br/>Género: Varía (hombres, mujeres y disidencias).<br/>Ubicación: Zonas urbanas con movimiento cultural/artístico.<br/>Tecnología: Uso frecuente de redes sociales y plataformas digitales.<br/>Nivel educativo: Variable, pero con interés en formación musical o autodidactismo. | Según el estudio del Banco Interamericano de Desarrollo (BID) "Brechas de género en las industrias culturales y creativas" (2024), las mujeres representan solo el 31.1% del empleo en el sector creativo en países como Argentina, Colombia, México y Perú, y enfrentan barreras significativas para acceder a oportunidades laborales y posiciones de liderazgo. [Ver fuente](https://publications.iadb.org/es/brechas-de-genero-en-las-industrias-culturales-y-creativas) |
 | **Locales** | Tipo de negocio: Pequeños y medianos bares, discotecas y locales de entretenimiento.<br/>Ubicación: Zonas con alta actividad nocturna o turística.<br/>Interés: Renovar su cartelera, atraer público nuevo, y automatizar procesos de contratación. | De acuerdo con PromPerú (2023), el sector de entretenimiento nocturno representa el 1.8% del PBI en sectores urbanos clave. Un estudio realizado en el mismo año revela que el 72% de los bares busca incorporar artistas en vivo como estrategia para aumentar sus ventas, pero enfrentan desafíos en encontrar propuestas confiables y adecuadas a su perfil. [Ver fuente](https://www.promperu.gob.pe/) |
+
+# **Capitulo II: Requirements Elicitation & Analysis**
+
+## 2.1. Competidores
+
+En el ecosistema de soluciones para la gestión de eventos musicales y contratación de artistas, existen diversas plataformas que ofrecen funcionalidades similares a las de TocaAquí. A continuación, se presentan algunos de los competidores más relevantes, junto con un análisis de sus enfoques y una comparación con las fortalezas diferenciales de nuestra propuesta.
+
+  
+![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)
+
+**Songkick:** Plataforma internacional que permite a los usuarios seguir a sus artistas favoritos, recibir alertas de conciertos en su área y comprar entradas. Aunque facilita el descubrimiento de eventos y la compra de boletos, no gestiona contrataciones directas ni procesos logísticos para los artistas.
+
+🔹 Ventaja de TocaAquí: Nuestra solución no solo conecta, sino que formaliza y ejecuta todo el ciclo de contratación, desde la exploración hasta el pago y la evaluación post-evento.
+
+![GigSalad](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)
+
+**GigSalad:**  Marketplace enfocado en conectar talentos artísticos con contratistas para eventos privados, principalmente en EE. UU. Funciona bien en espectáculos particulares, pero carece de enfoque en la escena musical independiente y local.
+
+🔹 Ventaja de TocaAquí: Apuntamos a artistas emergentes que buscan espacios reales de exposición en circuitos culturales, y promovemos la contratación en vivo en espacios públicos y comunitarios.
+
+![Indie on the Move](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy)
+
+  
+
+**Indie on the Move:** Plataforma que ayuda a bandas a encontrar lugares donde tocar en Estados Unidos, ofreciendo bases de datos y herramientas para giras. Sin embargo, la gestión sigue siendo manual y sin respaldo de contratos ni pagos seguros.
+
+🔹 Ventaja de TocaAquí: Ofrecemos una experiencia automatizada y segura, con contrato digital, logística integrada y pagos protegidos mediante escrow, además de promoción integrada del evento.
+
