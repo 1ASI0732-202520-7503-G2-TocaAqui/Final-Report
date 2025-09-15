@@ -560,7 +560,7 @@ Para destacar frente a la competencia en el sector musical y de eventos, TocaAqu
 
 ## 2.2. Entrevistas. 
 
-####   2.2.1 Diseño de entrevistas. 
+#### 2.2.1 Diseño de entrevistas. 
 
 **Segmento Objetivo Administradores de locales**
 **Preguntas Objetivas:**
@@ -717,9 +717,9 @@ Los artistas entrevistados tienen un perfil activo y profesional, pero operan de
 
 La falta de contratos y de seguridad en los pagos fue el punto más crítico mencionado en las tres entrevistas. Además, mostraron alta disposición a adoptar nuevas tecnologías si estas reducen el estrés operativo y les permiten enfocarse en lo que realmente importa: su música.
 
-##   2.3. Needfinding. 
+## 2.3. Needfinding
 
-### 2.3.1 User Personas. 
+### 2.3.1 User Personas
 
 Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User Persona que representan de forma ficticia a nuestros segmentos principales: artistas independientes y administradores de locales. Estos perfiles nos permiten identificar sus motivaciones, frustraciones, hábitos y expectativas, facilitando el diseño de una solución más alineada con sus necesidades reales y mejorando así su experiencia con la plataforma.
 
@@ -732,5 +732,36 @@ Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User
 ![Artista_user_persona](https://i.imgur.com/dIfXiwF.png)
 
 
+### 2.3.2 User Task Matrix.
+
+**Artista Independiente:**
+
+| **Tareas** | **Frecuencia** | **Importancia** |
+|------------|----------------|-----------------|
+| Buscar y postularse a nuevos escenarios y eventos | Always | High |
+| Firmar contratos formales para presentaciones | Sometimes | High |
+| Coordinar fechas, pagos y ensayos desde una sola plataforma | Always | High |
+| Gestionar su agenda y compromisos artísticos | Always | High |
+| Promocionar sus eventos en redes sociales | Sometimes | Medium |
+| Crear y actualizar su perfil artístico profesional | Always | High |
+| Evaluar presentaciones y recibir feedback para mejorar | Sometimes | Medium |
+| Asegurar pagos mediante mecanismos confiables | Sometimes | High |
+| Crear contenido para mantener su visibilidad en redes | Sometimes | Medium |
+
+---
+
+**Administrador de Local:**
+
+| **Tareas** | **Frecuencia** | **Importancia** |
+|------------|----------------|-----------------|
+| Publicar disponibilidad de fechas y espacios para eventos | Always | High |
+| Recibir y filtrar propuestas de artistas | Always | High |
+| Coordinar logística y ensayos de manera organizada | Sometimes | High |
+| Formalizar contratos y pagos a través de una plataforma | Sometimes | High |
+| Gestionar inventario técnico (sonido, luces, etc.) | Sometimes | Medium |
+| Evaluar artistas después de los eventos | Sometimes | Medium |
+| Promocionar eventos en redes sociales | Sometimes | Medium |
+| Controlar asistencia y recolectar feedback del público | Sometimes | Medium |
+| Automatizar tareas operativas para ahorrar tiempo | Always | High |
 
 
