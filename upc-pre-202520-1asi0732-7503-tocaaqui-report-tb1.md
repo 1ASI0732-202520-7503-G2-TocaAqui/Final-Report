@@ -651,5 +651,72 @@ Para destacar frente a la competencia en el sector musical y de eventos, TocaAqu
 - ¿Qué esperas de una plataforma digital que prometa conectarte con promotores y espacios?
 
 
+### 2.2.3. Análisis de entrevistas
+
+**Segmento Objetivo #2: Artistas y Músicos Independientes**
+
+A partir de las entrevistas realizadas a tres músicos con distintos perfiles y géneros —Diego Salazar (rock alternativo), Juan Gutiérrez (cumbia) y Luis Paredes (criollo)— se identifican patrones comunes que reflejan claramente los problemas de informalidad, incertidumbre y desorganización en la escena musical independiente. Todos ellos realizan múltiples presentaciones al mes, pero coinciden en que los procesos actuales de contratación son poco confiables y desordenados.
+
+---
+
+**Herramientas y dispositivos más utilizados**
+
+Los artistas entrevistados hacen uso intensivo de herramientas digitales básicas para coordinar sus presentaciones. Todos mencionaron el uso del celular como su herramienta principal, junto a canales como WhatsApp, llamadas e incluso Instagram.
+
+| Herramienta / Dispositivo   | Uso (%) |
+|-----------------------------|---------|
+| Celular                     | 100%    |
+| WhatsApp                    | 100%    |
+| Llamadas telefónicas        | 100%    |
+| Laptop                      | 67%     |
+| Instagram                   | 33%     |
+
+![Herramientas de artistas](/assets/Herramientas%20Y%20Dispositivos%20Más%20Utilizados%20Por%20Artistas.png)
+
+La gestión digital existe, pero es desarticulada. No utilizan plataformas centralizadas ni herramientas profesionales para contratación, pagos o promoción de sus eventos.
+
+---
+
+**Canales de Coordinación**
+
+Los tres entrevistados afirmaron que la coordinación con los promotores se realiza casi exclusivamente por WhatsApp o llamadas. Uno de ellos también recibe propuestas por DM de Instagram, aunque indicó que eso complica el seguimiento.
+
+Esto evidencia una alta dependencia de canales informales, lo que abre una gran oportunidad para una herramienta que centralice y profesionalice la gestión.
+
+---
+
+**Desafíos Actuales Identificados**
+
+| Desafío                                                        | Mención (%) |
+|----------------------------------------------------------------|-------------|
+| Informalidad en pagos                                           | 100%        |
+| Falta de contratos escritos o claros                           | 100%        |
+| Cambios de último minuto en condiciones o fechas               | 67%         |
+| Incertidumbre hasta el día del evento                          | 100%        |
+| Mala comunicación con algunos locales                          | 67%         |
+
+![Desafios de artistas](/assets/Desafíos%20Identificados%20Por%20Artistas.png)
+
+---
+
+**Expectativas hacia soluciones tecnológicas**
+
+Todos los artistas expresaron un fuerte interés por contar con una solución que:
+
+- Les permita centralizar fechas y postulaciones.
+- Ofrezca contratos digitales automáticos.
+- Garantice pagos seguros, idealmente bajo un sistema tipo escrow.
+- Permita promocionar sus shows de forma profesional.
+- Reduzca la necesidad de múltiples conversaciones y negociaciones por separado.
+  
+---
+
+**Conclusión del análisis**
+
+Los artistas entrevistados tienen un perfil activo y profesional, pero operan dentro de un sistema informal y poco estructurado. Existe una clara necesidad de una plataforma como TocaAquí, que automatice y profesionalice todo el proceso de contratación musical: desde la postulación hasta el pago final.
+
+La falta de contratos y de seguridad en los pagos fue el punto más crítico mencionado en las tres entrevistas. Además, mostraron alta disposición a adoptar nuevas tecnologías si estas reducen el estrés operativo y les permiten enfocarse en lo que realmente importa: su música.
+
+
 
 
