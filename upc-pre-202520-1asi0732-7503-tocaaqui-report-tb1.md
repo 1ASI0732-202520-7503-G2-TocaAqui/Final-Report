@@ -731,7 +731,7 @@ Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User
 
 ![Artista_user_persona](https://i.imgur.com/dIfXiwF.png)
 
-### 2.3.2 User Task Matrix.
+### 2.3.2 User Task Matrix
 
 **Artista Independiente:**
 
@@ -763,12 +763,24 @@ Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User
 | Controlar asistencia y recolectar feedback del público | Sometimes | Medium |
 | Automatizar tareas operativas para ahorrar tiempo | Always | High |
 
-### 2.3.3 User Journey Mapping.
+### 2.3.3 User Journey Mapping
 
 En esta sección, analizaremos el recorrido del usuario al utilizar nuestra plataforma TocaAqui
 
-**Segmento 1: Músicos Independientes** <br>
+**Segmento 1: Músicos Independientes**
+
 ![Musicos](https://i.imgur.com/MB9ezBT.png)
 
-**Segmento 2: Promotores** <br>
-![Promotores](https://i.imgur.com/GQW1OPO.png)
+**Segmento 2: Promotores**
+
+![Musicos](https://i.imgur.com/e1sM204.png)
+
+### 2.3.4 Empathy Mapping
+
+En esta sección se presenta el Empathy Mapping, una herramienta para crear un perfil detallado de los user personas y desarrollar una comprensión profunda de su perspectiva y experiencia. Para cada user persona, se incluyen cinco elementos clave: lo que el usuario ve, lo que el usuario escucha, lo que el usuario dice, lo que el usuario hace y lo que el usuario siente.
+
+**Segmento 1: Músicos Independientes** 
+![Musicos](https://i.imgur.com/e1sM204.png)
+
+**Segmento 2: Promotores**
+![Musicos](https://i.imgur.com/48kEK0X.png)
