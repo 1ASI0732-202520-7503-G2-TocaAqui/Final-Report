@@ -997,3 +997,29 @@ Este glosario reúne los términos clave utilizados en el desarrollo y uso de la
 ## 3.3. Impact Mapping.
 
 ![Impact Mapping](https://imgur.com/e7klg9u.png)
+
+
+## 3.4. Product Backlog.
+
+Utilizamos la escala de Fibonacci para la estimación de los Story Points.
+
+| Orden | User Story Id | Título                                                   | Descripción                                                                                                                                                   | Story Points (1/2/3/5/8) |
+|-------|----------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| 1     | US01          | Visualización clara del propósito de la plataforma | Como visitante de ambos segmentos, quiero entender rápidamente qué es TocaAquí y cómo funciona, para saber si es relevante para mí como artista o local. | 3 |
+| 2     | US02          | Navegación fluida entre secciones informativas | Como visitante de ambos segmentos, quiero navegar entre secciones como Sobre Nosotros o Planes desde el menú principal, para explorar fácilmente la solución. | 3 |
+| 3     | US03          | Visualización adecuada en móviles y pantallas pequeñas | Como visitante de ambos segmentos, quiero que el sitio se adapte bien a mi celular o tablet, para tener una buena experiencia sin importar el dispositivo. | 5 |
+| 4     | US04          | Acceso a la versión en inglés del sitio | Como visitante de ambos segmentos (extranjero), quiero ver la página en inglés, para comprender toda la información sin barreras de idioma. | 3 |
+| 5     | US05          | Envío de un mensaje a través del formulario de contacto | Como visitante de ambos segmentos con dudas, quiero enviar un mensaje desde el formulario de contacto, para comunicarme fácilmente con el equipo de TocaAquí. | 2 |
+| 6     | US06          | Selección del tipo de usuario desde la landing | Como visitante de ambos segmentos interesado, quiero seleccionar si soy artista o promotor desde la landing, para empezar mi registro de forma adecuada. | 3 |
+| 7     | US21          | Visualización de planes para artistas y promotores/locales | Como visitante de ambos segmentos, quiero ver claramente los diferentes planes disponibles para artistas y promotores/locales, para decidir cuál se adapta mejor a mis necesidades. | 3 |
+| 8     | US22          | Acceso rápido a registro desde botones CTA | Como visitante de ambos segmentos interesado, quiero encontrar botones claros para registrarme como artista o como local, para comenzar a usar la plataforma con un clic. | 2 |
+| 9     | US23          | Navegación accesible desde menú fijo | Como visitante de ambos segmentos, quiero contar con un menú que permanezca visible mientras navego, para poder acceder fácilmente a cualquier sección de la página. | 3 |
+| 10    | US24          | Visualización del equipo de desarrollo en la landing | Como visitante de ambos segmentos curioso, quiero conocer al equipo de personas que desarrolla TocaAquí, para sentir mayor confianza en la solución. | 2 |
+| 11    | US25          | Visualización de testimonios de usuarios | Como visitante de ambos segmentos, quiero ver testimonios de artistas y promotores en la landing, para generar confianza en la calidad y efectividad de la plataforma. | 3 |
+| 12    | US26          | Botón de Call to Action "Enviar" en la sección de "Contáctanos" | Como visitante de ambos segmentos, quiero ver el botón de "Enviar" en la sección "Contáctanos", para poder enviar mis dudas o consultas directamente a la plataforma. | 2 |
+| 13     | TS01          | Estructura básica de la landing page | Como desarrollador, quiero que la landing page de TocaAquí tenga una estructura HTML básica para una presentación clara y ordenada. | 3 |
+| 14     | TS02          | Diseño responsivo de la landing page | Como desarrollador, quiero que la landing page sea completamente responsiva para garantizar su correcta visualización en diferentes dispositivos. | 5 |
+| 15     | TS03          | Integración de imágenes y multimedia | Como desarrollador, quiero integrar imágenes y otros elementos multimedia en la landing page para mejorar la estética y presentación. | 3 |
+| 16     | TS04          | Implementación de animaciones y transiciones | Como desarrollador, quiero agregar animaciones y transiciones suaves en la landing page para mejorar la experiencia de usuario. | 5 |
+| 17     | TS05          | Implementación de formularios de contacto | Como desarrollador, quiero que los usuarios puedan contactar con el equipo a través de un formulario en la landing page. | 3 |
+| 18     | TS06          | Despliegue de la Landing Page en GitHub Pages | Como desarrollador, quiero desplegar la landing page de TocaAquí en GitHub Pages para que esté accesible públicamente. | 2 |
