@@ -520,7 +520,7 @@ En el ecosistema de soluciones para la gestión de eventos musicales y contratac
 |--------------------------------------|--------------------------------------------------------------------------------------|
 | **¿Por qué llevar a cabo este análisis?** | Llevar a cabo este análisis nos brindará información crítica que nos permitirá tomar decisiones más informadas y estratégicas para el desarrollo, comercialización y crecimiento de **TocaAquí**. |
 ------------------------------------------------------------------------------------------------------------------
-| **Categoría** | **TocaAquí** ![TocaAqui-Logo](../../assets/TocaAqui_Logo.jpeg) | **Songkick** ![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)| **GigSalad** ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)| **Indie on the Move**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy) |
+| **Categoría** | **TocaAquí** ![TocaAqui-Logo](https://i.imgur.com/XGqj87i.jpeg) | **Songkick** ![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)| **GigSalad** ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)| **Indie on the Move**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy) |
 |---------------|--------------|--------------|--------------|------------------------|
 | **Perfil - Overview** | Plataforma web que conecta músicos emergentes con bares, promotores y espacios culturales. Ofrece contratación directa, contrato digital, pagos seguros (escrow) y herramientas de promoción. | Plataforma internacional que notifica sobre conciertos de artistas favoritos, con opción de compra de entradas. | Marketplace para contratar artistas y animadores para eventos privados (principalmente en EE. UU.). | Plataforma para que bandas independientes encuentren lugares donde tocar. Ofrece listas de contactos y recursos para planear giras. |
 | **Ventaja competitiva** | Conexión directa y segura, contrato digital, logística integrada, sistema de pagos protegidos y promoción del evento. | Gran alcance global y facilidad para descubrir eventos, pero sin contratación directa ni gestión logística. | Facilidad para eventos privados, pero sin enfoque cultural ni contratación formal. | Buen recurso de base de datos, pero sin automatización, sin contratos ni pagos seguros. |
@@ -671,7 +671,7 @@ Los artistas entrevistados hacen uso intensivo de herramientas digitales básica
 | Laptop                      | 67%     |
 | Instagram                   | 33%     |
 
-![Herramientas de artistas](/assets/Herramientas%20Y%20Dispositivos%20Más%20Utilizados%20Por%20Artistas.png)
+![Herramientas de artistas](https://i.imgur.com/dFQZ6OZ.png)
 
 La gestión digital existe, pero es desarticulada. No utilizan plataformas centralizadas ni herramientas profesionales para contratación, pagos o promoción de sus eventos.
 
@@ -695,7 +695,7 @@ Esto evidencia una alta dependencia de canales informales, lo que abre una gran 
 | Incertidumbre hasta el día del evento                          | 100%        |
 | Mala comunicación con algunos locales                          | 67%         |
 
-![Desafios de artistas](/assets/Desafíos%20Identificados%20Por%20Artistas.png)
+![Desafios de artistas](https://i.imgur.com/ym6RIeG.png)
 
 ---
 
