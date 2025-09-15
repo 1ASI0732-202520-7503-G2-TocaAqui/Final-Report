@@ -784,3 +784,40 @@ En esta sección se presenta el Empathy Mapping, una herramienta para crear un p
 
 **Segmento 2: Promotores**
 ![Musicos](https://i.imgur.com/48kEK0X.png)
+
+### 2.3.5 As-is Scenario Mapping.
+
+**As-Is Scenario Mapping Músicos Independientes**
+
+**Preparación de la actividad**
+Preparamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+
+![Paso1](https://i.imgur.com/Pe1ORqJ.png)
+
+**Brainstorming**
+Se obtuvo el siguiente resultado en el proceso de la lluvia de ideas:
+
+![Paso2](https://imgur.com/XgCZzdH.png)
+
+**As-Is Scenario Mapping Músicos Independientes**
+Finalmente, luego de identificar las fases y organizar ideas, se obtuvo el siguiente resultado:
+
+![Paso3](https://i.imgur.com/Ot0hx8k.png)
+
+**As-Is Scenario Mapping Promotores**
+
+**Preparación de la actividad** 
+Preparamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+
+![Paso1](https://i.imgur.com/e1sM204.png)
+
+**Brainstorming** <br>
+Se obtuvo el siguiente resultado en el proceso de la lluvia de ideas:
+
+![Paso2](https://i.imgur.com/3tWbyAd.png)
+
+**As-Is Scenario Mapping Músicos Independientes** <br>
+Finalmente, luego de identificar las fases y organizar ideas, se obtuvo el siguiente resultado:
+
+![Paso3](https://i.imgur.com/HsqhGJW.png)
+
