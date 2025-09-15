@@ -75,7 +75,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
     - 2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping)  
   - 2.4. [Ubiquitous Language](#24-ubiquitous-language)  
 
-- 3. [Capítulo III: Requirements Specification](#3-capítulo-iii-requirements-specification)  
+- 3. [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)  
   - 3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
   - 3.2. [User Stories](#32-user-stories)  
   - 3.3. [Product Backlog](#33-product-backlog)  
@@ -843,4 +843,12 @@ Este glosario reúne los términos clave utilizados en el desarrollo y uso de la
 | **Postulación filtrada**  | Mecanismo mediante el cual los locales reciben propuestas artísticas según criterios definidos (género, reputación, etc.). |
 | **Logistics Manager**     | Módulo de la plataforma que centraliza todos los detalles técnicos, fechas, contratos y coordinación del evento. |
 
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping.
+### Segmento: Administradores de locales
+![Scenario_Mapping_Local](https://imgur.com/4IeJyaN.jpg)
+
+### Segmento: Artistas
+
+![Scenario_Mapping_Artista](https://imgur.com/giAAsvW.jpg)
 
