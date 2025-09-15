@@ -717,6 +717,20 @@ Los artistas entrevistados tienen un perfil activo y profesional, pero operan de
 
 La falta de contratos y de seguridad en los pagos fue el punto más crítico mencionado en las tres entrevistas. Además, mostraron alta disposición a adoptar nuevas tecnologías si estas reducen el estrés operativo y les permiten enfocarse en lo que realmente importa: su música.
 
+##   2.3. Needfinding. 
+
+### 2.3.1 User Personas. 
+
+Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User Persona que representan de forma ficticia a nuestros segmentos principales: artistas independientes y administradores de locales. Estos perfiles nos permiten identificar sus motivaciones, frustraciones, hábitos y expectativas, facilitando el diseño de una solución más alineada con sus necesidades reales y mejorando así su experiencia con la plataforma.
+
+**Segmento Objetivo Administradores de locales**
+
+![Administrador_user_persona](https://i.imgur.com/8xkA8kT.png)
+
+**Segmento Objetivo Artista independiente**
+
+![Artista_user_persona](https://i.imgur.com/dIfXiwF.png)
+
 
 
 
