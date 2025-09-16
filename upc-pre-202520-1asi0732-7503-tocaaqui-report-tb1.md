@@ -59,7 +59,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
       - 1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
   - 1.3. [Segmentos objetivo](#13-segmentos-objetivo)  
 
-- 2. [Capítulo II: Requirements Elicitation & Analysis](#2-capítulo-ii-requirements-elicitation--analysis)  
+- 2. [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-analysis)  
   - 2.1. [Competidores](#21-competidores)  
     - 2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
     - 2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
@@ -75,7 +75,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
     - 2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping)  
   - 2.4. [Ubiquitous Language](#24-ubiquitous-language)  
 
-- 3. [Capítulo III: Requirements Specification](#3-capítulo-iii-requirements-specification)  
+- 3. [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)  
   - 3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
   - 3.2. [User Stories](#32-user-stories)  
   - 3.3. [Product Backlog](#33-product-backlog)  
@@ -486,3 +486,537 @@ Los segmentos objetivos identificados se definirán en la siguiente tabla:
 |-------------------|------------------------------|-------------------------------------|
 | **Artistas** | Edad: 18 a 40 años.<br/>Género: Varía (hombres, mujeres y disidencias).<br/>Ubicación: Zonas urbanas con movimiento cultural/artístico.<br/>Tecnología: Uso frecuente de redes sociales y plataformas digitales.<br/>Nivel educativo: Variable, pero con interés en formación musical o autodidactismo. | Según el estudio del Banco Interamericano de Desarrollo (BID) "Brechas de género en las industrias culturales y creativas" (2024), las mujeres representan solo el 31.1% del empleo en el sector creativo en países como Argentina, Colombia, México y Perú, y enfrentan barreras significativas para acceder a oportunidades laborales y posiciones de liderazgo. [Ver fuente](https://publications.iadb.org/es/brechas-de-genero-en-las-industrias-culturales-y-creativas) |
 | **Locales** | Tipo de negocio: Pequeños y medianos bares, discotecas y locales de entretenimiento.<br/>Ubicación: Zonas con alta actividad nocturna o turística.<br/>Interés: Renovar su cartelera, atraer público nuevo, y automatizar procesos de contratación. | De acuerdo con PromPerú (2023), el sector de entretenimiento nocturno representa el 1.8% del PBI en sectores urbanos clave. Un estudio realizado en el mismo año revela que el 72% de los bares busca incorporar artistas en vivo como estrategia para aumentar sus ventas, pero enfrentan desafíos en encontrar propuestas confiables y adecuadas a su perfil. [Ver fuente](https://www.promperu.gob.pe/) |
+
+# **Capítulo II: Requirements Elicitation Analysis**
+
+## 2.1. Competidores
+
+En el ecosistema de soluciones para la gestión de eventos musicales y contratación de artistas, existen diversas plataformas que ofrecen funcionalidades similares a las de TocaAquí. A continuación, se presentan algunos de los competidores más relevantes, junto con un análisis de sus enfoques y una comparación con las fortalezas diferenciales de nuestra propuesta.
+
+  
+![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)
+
+**Songkick:** Plataforma internacional que permite a los usuarios seguir a sus artistas favoritos, recibir alertas de conciertos en su área y comprar entradas. Aunque facilita el descubrimiento de eventos y la compra de boletos, no gestiona contrataciones directas ni procesos logísticos para los artistas.
+
+🔹 Ventaja de TocaAquí: Nuestra solución no solo conecta, sino que formaliza y ejecuta todo el ciclo de contratación, desde la exploración hasta el pago y la evaluación post-evento.
+
+![GigSalad](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)
+
+**GigSalad:**  Marketplace enfocado en conectar talentos artísticos con contratistas para eventos privados, principalmente en EE. UU. Funciona bien en espectáculos particulares, pero carece de enfoque en la escena musical independiente y local.
+
+🔹 Ventaja de TocaAquí: Apuntamos a artistas emergentes que buscan espacios reales de exposición en circuitos culturales, y promovemos la contratación en vivo en espacios públicos y comunitarios.
+
+![Indie on the Move](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy)
+
+  
+
+**Indie on the Move:** Plataforma que ayuda a bandas a encontrar lugares donde tocar en Estados Unidos, ofreciendo bases de datos y herramientas para giras. Sin embargo, la gestión sigue siendo manual y sin respaldo de contratos ni pagos seguros.
+
+🔹 Ventaja de TocaAquí: Ofrecemos una experiencia automatizada y segura, con contrato digital, logística integrada y pagos protegidos mediante escrow, además de promoción integrada del evento.
+
+### 2.1.1. Análisis competitivo. 
+
+| **Competitive Analysis Landscape** |                                                                                      |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| **¿Por qué llevar a cabo este análisis?** | Llevar a cabo este análisis nos brindará información crítica que nos permitirá tomar decisiones más informadas y estratégicas para el desarrollo, comercialización y crecimiento de **TocaAquí**. |
+------------------------------------------------------------------------------------------------------------------
+| **Categoría** | **TocaAquí** ![TocaAqui-Logo](https://i.imgur.com/XGqj87i.jpeg) | **Songkick** ![Songkick App Creates Custom Concert Listings from your iTunes Library](https://www.rollingstone.com/wp-content/uploads/2018/06/rs-142457-rectangle.jpg?w=386&h=254&crop=1)| **GigSalad** ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdK__S_0ktshktw1DYJSkkTY3LbpbB-nusJl1iPyna4gxduXR5ZRwj4pj-jWV4Jdi5jgV6EOS7NVm8oddeSggfPgW22tTmFEda7dwzYGIOxRYRx9jdhMmxt08iiLXnOOBRF_pyGCQ?key=UTGk9fNRTPANN7JnqgZpalhy)| **Indie on the Move**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfluwZjQSItm_-HnJzteiZ8-JxMEpgsyrurPUN3HsqOs2CliiFVulB2ve3-v05hR4XtUOlBOFgBDI-7iSevJhvSxr0VfAt9GazqQ_ejyjzmjlAK-y_FUMlEKyMwju3Jg0zv8xvuaA?key=UTGk9fNRTPANN7JnqgZpalhy) |
+|---------------|--------------|--------------|--------------|------------------------|
+| **Perfil - Overview** | Plataforma web que conecta músicos emergentes con bares, promotores y espacios culturales. Ofrece contratación directa, contrato digital, pagos seguros (escrow) y herramientas de promoción. | Plataforma internacional que notifica sobre conciertos de artistas favoritos, con opción de compra de entradas. | Marketplace para contratar artistas y animadores para eventos privados (principalmente en EE. UU.). | Plataforma para que bandas independientes encuentren lugares donde tocar. Ofrece listas de contactos y recursos para planear giras. |
+| **Ventaja competitiva** | Conexión directa y segura, contrato digital, logística integrada, sistema de pagos protegidos y promoción del evento. | Gran alcance global y facilidad para descubrir eventos, pero sin contratación directa ni gestión logística. | Facilidad para eventos privados, pero sin enfoque cultural ni contratación formal. | Buen recurso de base de datos, pero sin automatización, sin contratos ni pagos seguros. |
+| **Mercado objetivo** | Músicos emergentes, bares, discotecas, centros culturales, promotores de eventos comunitarios. | Fans de la música que buscan descubrir conciertos y comprar entradas. | Organizadores de eventos privados que buscan entretenimiento (bodas, fiestas, etc.). | Bandas que organizan sus propias giras en EE. UU. |
+| **Estrategias de marketing** | Redes sociales, colaboraciones con espacios culturales, showcases, recomendaciones por reputación y calificaciones. | Notificaciones personalizadas, integración con plataformas musicales. | Publicidad local y anuncios en redes para eventos privados. | Blog, comunidad en línea y estrategia de posicionamiento SEO. |
+| **Productos & Servicios** | Plataforma integral: contratación, pago escrow, firma digital, agenda compartida, validación del rider técnico y promoción del evento. | Seguimiento de artistas, alertas de conciertos, venta de entradas. | Catálogo de artistas, perfiles profesionales, contacto directo. | Listas de contactos de venues, herramientas de planificación de giras. |
+| **Precios & Costos** | Comisión por evento concretado. Acceso gratuito con opción premium para funciones adicionales. | Gratuito para usuarios. Ingresos por venta de entradas y acuerdos con promotores. | Comisión por contratación. Costos variables por tipo de artista. | Costos por acceso a base de datos y herramientas. Modelos freemium. |
+| **Canales de distribución** | Web, app móvil, WhatsApp Business, integración con plataformas de pago y redes sociales. | Web, app móvil, notificaciones por correo y apps de música. | Web y correo directo con artistas. | Web y app web responsiva. Enfoque en escritorio. |
+| **Fortalezas** | Contratación segura, experiencia automatizada, visibilidad para artistas emergentes, soporte integral al evento. | Gran base de usuarios y alianzas con plataformas musicales. | Amplia variedad de artistas para eventos sociales. | Apoyo a bandas independientes, útil para giras DIY. |
+| **Debilidades** | Plataforma en crecimiento. Necesita generar masa crítica de usuarios y confianza del mercado. | No gestiona contrataciones ni logística de artistas. | Limitado a eventos privados. Poca presencia cultural o comunitaria. | Gestión manual. Sin soporte legal ni de pagos. Limitado a EE. UU. |
+| **Oportunidades** | Expansión a más ciudades, alianzas con promotores, sistema de recompensas por reseñas, integración con plataformas de streaming. | Integración con redes sociales, nuevas funciones de comunidad. | Expansión internacional, integrar funciones logísticas. | Modernización con IA, agregar soporte contractual y pagos. |
+| **Amenazas** | Competidores consolidados, reticencia a la digitalización en algunos sectores culturales, dependencia del éxito en eventos piloto. | Saturación del mercado de entradas, cambios en algoritmos de plataformas sociales. | Dependencia del mercado de eventos privados, reputación variable. | Competencia tecnológica, falta de diferenciación a largo plazo. |
+
+####  2.1.2. Estrategias y tácticas frente a competidores.
+
+Para destacar frente a la competencia en el sector musical y de eventos, TocaAquí debe implementar estrategias y tácticas diferenciadoras que refuercen su propuesta de valor y logren captar tanto a músicos como a promotores y locales. Estas son algunas de las principales estrategias y tácticas planteadas:
+
+**Desarrollar una Propuesta de Valor Única**
+- **Estrategia:** Resaltar los beneficios clave de TocaAquí como plataforma integral para la contratación y promoción de talento musical emergente.  
+- **Táctica:** Enfatizar características como contratos digitales, pagos seguros (escrow), validación de rider técnico y agenda compartida para destacar la profesionalización del proceso.
+
+**Enfoque en la Experiencia del Usuario**
+- **Estrategia:** Optimizar la experiencia tanto para músicos como para promotores mediante una interfaz clara, intuitiva y funcional.  
+- **Táctica:** Mejorar continuamente la usabilidad de la plataforma, con flujos ágiles para programación de eventos, seguimiento de pagos y validación de logística técnica.
+
+**Ampliar la Base de Usuarios**
+- **Estrategia:** Aumentar la comunidad de usuarios para consolidar la red y generar más oportunidades de conexión musical.  
+- **Táctica:** Implementar campañas de referidos para músicos y promotores, junto con descuentos por primera contratación y beneficios por uso frecuente.
+
+**Marketing Digital Segmentado**
+- **Estrategia:** Enfocar la comunicación digital hacia artistas independientes, bookers y dueños de locales culturales.  
+- **Táctica:** Usar campañas dirigidas en redes sociales, con contenidos creativos (videos de artistas, experiencias de contratación) y pauta en nichos como festivales locales, ferias musicales y foros de emprendimiento artístico.
+
+**Alianzas Estratégicas**
+- **Estrategia:** Colaborar con instituciones culturales, asociaciones de músicos y marcas relacionadas con la música en vivo para aumentar la visibilidad y credibilidad.  
+- **Táctica:** Generar convenios con bares, discotecas, escuelas de música y empresas de sonido para ofrecer beneficios cruzados y asegurar presencia constante en la escena.
+
+## 2.2. Entrevistas. 
+
+#### 2.2.1 Diseño de entrevistas. 
+
+**Segmento Objetivo Administradores de locales**
+**Preguntas Objetivas:**
+
+**Características Demográficas:**
+
+- ¿Cual es tu nombre?
+- ¿Cuántos años tienes?
+- ¿En qué ciudad y distrito está ubicado tu local?
+- ¿Cuál es el aforo y tipo de espacio que administras (bar, discoteca, centro cultural, etc.)?
+  
+**Ocupación y Responsabilidades:**
+
+- ¿Cuál es tu cargo dentro del establecimiento?
+- ¿Qué funciones desempeñas específicamente en la organización y gestión de eventos?
+- ¿Con qué frecuencia alquilas tu espacio para presentaciones musicales?
+- ¿Cómo gestionas actualmente la programación de artistas y bandas?
+
+**Uso de Tecnología:**
+
+- ¿Qué dispositivos usas para gestionar tu local (PC, laptop, tablet, celular)?
+- ¿Qué herramientas digitales o sistemas usas para reservas, programación o promoción?
+- ¿Qué canales usas para comunicarte con músicos o productores?
+
+**Preguntas Subjetivas:**
+**Personalidad y Habilidades:**
+
+- ¿Qué habilidades personales consideras claves para manejar eventos y relaciones con artistas?
+
+**Objetivos y Frustraciones:**
+
+- ¿Qué objetivos tienes al permitir que bandas se presenten en tu espacio?
+- ¿Qué problemas o frustraciones enfrentas al gestionar reservas, pagos o promociones?
+- ¿Qué procesos te gustaría automatizar?
+
+**Preferencias y Canales Digitales:**
+
+- ¿Qué funcionalidades valorarías en una plataforma que centralice reservas, pagos y promoción de eventos?
+-¿Cómo prefieres recibir notificaciones sobre postulaciones o confirmaciones de artistas?
+
+**Visión del Futuro:**
+
+- ¿Cómo te gustaría que evolucionara el proceso de reserva y programación musical?
+- ¿Qué mejoras digitales facilitarían tu trabajo como administrador de espacios?
+
+**Segmento Objetivo Artistas:**
+**Preguntas Objetivas:**
+
+**Características Demográficas:**
+
+- ¿Cuál es tu género?
+- ¿Cuántos años tienes?
+- ¿Cuál es tu rol musical (solista, vocalista, guitarrista, DJ, etc.)?
+- ¿Tocas solo o formas parte de una banda?
+
+**Ocupación y Responsabilidades:**
+
+- ¿Desde hace cuánto tiempo estás activo/a como músico?
+- ¿Cuántas presentaciones en vivo realizas en promedio al mes?
+- ¿Qué tipo de escenarios frecuentas (bares, festivales, discotecas)?
+
+**Uso de Tecnología:**
+
+- ¿Qué dispositivos usas para organizar tus presentaciones (PC, celular, tablet)?
+- ¿Qué redes o plataformas usas para gestionar tus bookings o mostrar tu trabajo (Instagram, SoundCloud, etc.)?
+- ¿Usas algún sistema para generar contratos o manejar pagos?
+
+**Preguntas Subjetivas:**
+**Personalidad y Habilidades:**
+
+- ¿Cómo defines tu estilo musical y tu enfoque en vivo?
+- ¿Qué habilidades consideras esenciales para posicionarte como artista en la escena local?
+
+**Objetivos y Frustraciones:**
+
+- ¿Qué metas tienes en relación con tus presentaciones en vivo?
+- ¿Qué dificultades encuentras al buscar espacios para tocar?
+- ¿Qué parte del proceso (contacto, pagos, contratos, logística) te resulta más difícil o engorrosa?
+
+**Preferencias y Canales Digitales:**
+
+- ¿Qué funcionalidades valoras en una plataforma para músicos (contratos automáticos, pagos seguros, agenda, etc.)?
+- ¿Por qué motivos dejarías de usar una plataforma si no cumpliera con tus expectativas?
+
+**Visión del Futuro:**
+
+- ¿Cómo te gustaría que evolucionaran los procesos de contratación y visibilidad para músicos independientes?
+- ¿Qué esperas de una plataforma digital que prometa conectarte con promotores y espacios?
+
+
+### 2.2.3. Análisis de entrevistas
+
+**Segmento Objetivo #2: Artistas y Músicos Independientes**
+
+A partir de las entrevistas realizadas a tres músicos con distintos perfiles y géneros —Diego Salazar (rock alternativo), Juan Gutiérrez (cumbia) y Luis Paredes (criollo)— se identifican patrones comunes que reflejan claramente los problemas de informalidad, incertidumbre y desorganización en la escena musical independiente. Todos ellos realizan múltiples presentaciones al mes, pero coinciden en que los procesos actuales de contratación son poco confiables y desordenados.
+
+---
+
+**Herramientas y dispositivos más utilizados**
+
+Los artistas entrevistados hacen uso intensivo de herramientas digitales básicas para coordinar sus presentaciones. Todos mencionaron el uso del celular como su herramienta principal, junto a canales como WhatsApp, llamadas e incluso Instagram.
+
+| Herramienta / Dispositivo   | Uso (%) |
+|-----------------------------|---------|
+| Celular                     | 100%    |
+| WhatsApp                    | 100%    |
+| Llamadas telefónicas        | 100%    |
+| Laptop                      | 67%     |
+| Instagram                   | 33%     |
+
+![Herramientas de artistas](https://i.imgur.com/dFQZ6OZ.png)
+
+La gestión digital existe, pero es desarticulada. No utilizan plataformas centralizadas ni herramientas profesionales para contratación, pagos o promoción de sus eventos.
+
+---
+
+**Canales de Coordinación**
+
+Los tres entrevistados afirmaron que la coordinación con los promotores se realiza casi exclusivamente por WhatsApp o llamadas. Uno de ellos también recibe propuestas por DM de Instagram, aunque indicó que eso complica el seguimiento.
+
+Esto evidencia una alta dependencia de canales informales, lo que abre una gran oportunidad para una herramienta que centralice y profesionalice la gestión.
+
+---
+
+**Desafíos Actuales Identificados**
+
+| Desafío                                                        | Mención (%) |
+|----------------------------------------------------------------|-------------|
+| Informalidad en pagos                                           | 100%        |
+| Falta de contratos escritos o claros                           | 100%        |
+| Cambios de último minuto en condiciones o fechas               | 67%         |
+| Incertidumbre hasta el día del evento                          | 100%        |
+| Mala comunicación con algunos locales                          | 67%         |
+
+![Desafios de artistas](https://i.imgur.com/ym6RIeG.png)
+
+---
+
+**Expectativas hacia soluciones tecnológicas**
+
+Todos los artistas expresaron un fuerte interés por contar con una solución que:
+
+- Les permita centralizar fechas y postulaciones.
+- Ofrezca contratos digitales automáticos.
+- Garantice pagos seguros, idealmente bajo un sistema tipo escrow.
+- Permita promocionar sus shows de forma profesional.
+- Reduzca la necesidad de múltiples conversaciones y negociaciones por separado.
+  
+---
+
+**Conclusión del análisis**
+
+Los artistas entrevistados tienen un perfil activo y profesional, pero operan dentro de un sistema informal y poco estructurado. Existe una clara necesidad de una plataforma como TocaAquí, que automatice y profesionalice todo el proceso de contratación musical: desde la postulación hasta el pago final.
+
+La falta de contratos y de seguridad en los pagos fue el punto más crítico mencionado en las tres entrevistas. Además, mostraron alta disposición a adoptar nuevas tecnologías si estas reducen el estrés operativo y les permiten enfocarse en lo que realmente importa: su música.
+
+## 2.3. Needfinding
+
+### 2.3.1 User Personas
+
+Para entender mejor a nuestros usuarios clave, hemos creado dos perfiles de User Persona que representan de forma ficticia a nuestros segmentos principales: artistas independientes y administradores de locales. Estos perfiles nos permiten identificar sus motivaciones, frustraciones, hábitos y expectativas, facilitando el diseño de una solución más alineada con sus necesidades reales y mejorando así su experiencia con la plataforma.
+
+**Segmento Objetivo Administradores de locales**
+
+![Administrador_user_persona](https://i.imgur.com/8xkA8kT.png)
+
+**Segmento Objetivo Artista independiente**
+
+![Artista_user_persona](https://i.imgur.com/dIfXiwF.png)
+
+### 2.3.2 User Task Matrix
+
+**Artista Independiente:**
+
+| **Tareas** | **Frecuencia** | **Importancia** |
+|------------|----------------|-----------------|
+| Buscar y postularse a nuevos escenarios y eventos | Always | High |
+| Firmar contratos formales para presentaciones | Sometimes | High |
+| Coordinar fechas, pagos y ensayos desde una sola plataforma | Always | High |
+| Gestionar su agenda y compromisos artísticos | Always | High |
+| Promocionar sus eventos en redes sociales | Sometimes | Medium |
+| Crear y actualizar su perfil artístico profesional | Always | High |
+| Evaluar presentaciones y recibir feedback para mejorar | Sometimes | Medium |
+| Asegurar pagos mediante mecanismos confiables | Sometimes | High |
+| Crear contenido para mantener su visibilidad en redes | Sometimes | Medium |
+
+---
+
+**Administrador de Local:**
+
+| **Tareas** | **Frecuencia** | **Importancia** |
+|------------|----------------|-----------------|
+| Publicar disponibilidad de fechas y espacios para eventos | Always | High |
+| Recibir y filtrar propuestas de artistas | Always | High |
+| Coordinar logística y ensayos de manera organizada | Sometimes | High |
+| Formalizar contratos y pagos a través de una plataforma | Sometimes | High |
+| Gestionar inventario técnico (sonido, luces, etc.) | Sometimes | Medium |
+| Evaluar artistas después de los eventos | Sometimes | Medium |
+| Promocionar eventos en redes sociales | Sometimes | Medium |
+| Controlar asistencia y recolectar feedback del público | Sometimes | Medium |
+| Automatizar tareas operativas para ahorrar tiempo | Always | High |
+
+### 2.3.3 User Journey Mapping
+
+En esta sección, analizaremos el recorrido del usuario al utilizar nuestra plataforma TocaAqui
+
+**Segmento 1: Músicos Independientes**
+
+![Musicos](https://i.imgur.com/MB9ezBT.png)
+
+**Segmento 2: Promotores**
+
+![Musicos](https://i.imgur.com/e1sM204.png)
+
+### 2.3.4 Empathy Mapping
+
+En esta sección se presenta el Empathy Mapping, una herramienta para crear un perfil detallado de los user personas y desarrollar una comprensión profunda de su perspectiva y experiencia. Para cada user persona, se incluyen cinco elementos clave: lo que el usuario ve, lo que el usuario escucha, lo que el usuario dice, lo que el usuario hace y lo que el usuario siente.
+
+**Segmento 1: Músicos Independientes** 
+![Musicos](https://i.imgur.com/e1sM204.png)
+
+**Segmento 2: Promotores**
+![Musicos](https://i.imgur.com/48kEK0X.png)
+
+### 2.3.5 As-is Scenario Mapping.
+
+**As-Is Scenario Mapping Músicos Independientes**
+
+**Preparación de la actividad**
+Preparamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+
+![Paso1](https://i.imgur.com/Pe1ORqJ.png)
+
+**Brainstorming**
+Se obtuvo el siguiente resultado en el proceso de la lluvia de ideas:
+
+![Paso2](https://imgur.com/XgCZzdH.png)
+
+**As-Is Scenario Mapping Músicos Independientes**
+Finalmente, luego de identificar las fases y organizar ideas, se obtuvo el siguiente resultado:
+
+![Paso3](https://i.imgur.com/Ot0hx8k.png)
+
+**As-Is Scenario Mapping Promotores**
+
+**Preparación de la actividad** 
+Preparamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+
+![Paso1](https://i.imgur.com/e1sM204.png)
+
+**Brainstorming** <br>
+Se obtuvo el siguiente resultado en el proceso de la lluvia de ideas:
+
+![Paso2](https://i.imgur.com/3tWbyAd.png)
+
+**As-Is Scenario Mapping Músicos Independientes** <br>
+Finalmente, luego de identificar las fases y organizar ideas, se obtuvo el siguiente resultado:
+
+![Paso3](https://i.imgur.com/HsqhGJW.png)
+
+###   2.4 Ubiquitous Language.
+
+**Glosario del dominio de la plataforma TocaAquí**
+
+Este glosario reúne los términos clave utilizados en el desarrollo y uso de la plataforma. Establece un lenguaje común entre usuarios, desarrolladores y stakeholders.
+
+| **Término**                | **Definición clara y compartida** |
+|---------------------------|-----------------------------------|
+| **Artista**               | Músico independiente o banda registrada en la plataforma que busca espacios para tocar en vivo. |
+| **Venue**                 | Bar, discoteca, café cultural u otro lugar físico que organiza eventos musicales y contrata artistas. |
+| **Contratación**          | Proceso de solicitud, selección y confirmación de un artista por parte de un local para una fecha específica. |
+| **Postulación**           | Acción mediante la cual un artista se propone para tocar en una fecha publicada por un local. |
+| **Contrato digital**      | Acuerdo legal generado automáticamente por la plataforma y firmado por ambas partes (artista y local). |
+| **Escrow Payment**        | Sistema de pago seguro en el que el dinero se libera solo después de realizarse el evento según lo acordado. |
+| **Rider técnico**         | Documento que contiene los requerimientos técnicos del artista para su presentación (sonido, luces, etc.). |
+| **Soundcheck**            | Ensayo técnico previo al evento para ajustar equipos de audio e instrumentos en el escenario. |
+| **Agenda compartida**     | Herramienta visual donde locales y artistas pueden ver fechas reservadas, confirmadas y disponibles. |
+| **Promoción del evento**  | Acciones realizadas para visibilizar un show programado (publicación en redes, cartelera digital, etc.). |
+| **Evaluación post-evento**| Sistema de calificación y feedback mutuo entre artistas y locales una vez realizado el evento. |
+| **Postulación filtrada**  | Mecanismo mediante el cual los locales reciben propuestas artísticas según criterios definidos (género, reputación, etc.). |
+| **Logistics Manager**     | Módulo de la plataforma que centraliza todos los detalles técnicos, fechas, contratos y coordinación del evento. |
+
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping.
+### Segmento: Administradores de locales
+![Scenario_Mapping_Local](https://imgur.com/4IeJyaN.jpg)
+
+### Segmento: Artistas
+
+![Scenario_Mapping_Artista](https://imgur.com/giAAsvW.jpg)
+
+
+## 3.2 User Stories
+
+
+| Epic ID | Título                                         | Descripción |
+|---------|------------------------------------------------|-------------|
+| EPIC-01 | Construcción de la landing page                | Página inicial pública con información clara sobre TocaAquí, sus beneficios, funcionalidades principales y llamado a la acción para captar usuarios. |
+| EPIC-02 | Implementación responsive y visual              | Adaptación del diseño de la landing a todos los dispositivos y aplicación del Web Style Guide con identidad gráfica coherente. |
+| EPIC-03 | Versiones multilenguaje y accesibilidad         | Inclusión de una versión en inglés y adecuación de la landing a criterios básicos de accesibilidad web. |
+| EPIC-04 | Captura de interés y contacto                   | Inclusión de botones de registro, sección de contacto funcional y otras herramientas para convertir visitantes en usuarios. |
+| EPIC-05 | Registro y login como artista                   | Creación de formulario de registro e inicio de sesión para artistas, con validación, recuperación de contraseña y redirección al dashboard. |
+| EPIC-06 | Dashboard y navegación del artista              | Construcción del home privado del artista, con acceso rápido a perfil, eventos, postulaciones, agenda, pagos y evaluaciones. |
+| EPIC-07 | Exploración de eventos y postulación            | Implementación del sistema de búsqueda de espacios/eventos y postulación automática con filtros por afinidad musical. |
+| EPIC-08 | Perfil del artista                              | Creación, edición y visualización de perfil artístico incluyendo biografía, estilo musical, links multimedia y evaluaciones previas. |
+| EPIC-09 | Contratos digitales y rider técnico             | Generación automática de contratos, firma digital integrada y flujo para subir, validar y coordinar logística técnica del show. |
+| EPIC-10 | Sistema de pagos para artistas                  | Gestión de pagos pendientes, pagos liberados vía escrow y visualización de historial económico. |
+| EPIC-11 | Evaluación y reputación del artista             | Implementación de evaluaciones post evento hacia locales, visualización de reputación acumulada en el perfil del artista. |
+| EPIC-12 | Registro y login como promotor/local            | Registro y acceso de administradores de espacios, con login, recuperación de contraseña y asignación automática de rol. |
+| EPIC-13 | Dashboard del promotor/local                    | Creación del home privado del local con vista rápida de shows agendados, publicaciones activas, agenda, contratos, pagos y evaluaciones. |
+| EPIC-14 | Publicación y gestión de eventos                | Sistema de publicación de fechas, condiciones, restricciones técnicas y tipos de música aceptada. |
+| EPIC-15 | Gestión de postulaciones e invitaciones         | Revisión de postulaciones recibidas, filtrado de bandas y opción para invitar a postular. |
+| EPIC-16 | Contratos, validaciones y coordinación logística| Validación del rider técnico, firma digital del contrato y coordinación de pruebas de sonido. |
+| EPIC-17 | Pagos y confirmación de shows                   | Validación del show completado y activación del pago a artista a través del sistema escrow. |
+| EPIC-18 | Evaluación de bandas y reputación               | Evaluación de las bandas post evento, con sistema de puntuación y visibilidad futura en el perfil del artista. |
+| EPIC-19 | Implementación del formulario de contacto | Crear una sección "Contáctanos" en la landing page, que permita a los visitantes de ambos segmentos enviar sus consultas o dudas mediante un formulario de contacto, con un botón de envío claro y funcional. |
+| EPIC-20 | Implementación de la sección de testimonios | Crear una sección de testimonios en la landing page que permita a los visitantes de ambos segmentos visualizar opiniones de artistas y promotores, mostrando su nombre, rol y una breve reseña de su experiencia, para fortalecer la confianza en la plataforma. |
+| EPIC-21   | Gestión de agenda y eventos confirmados       | Implementación de una vista de agenda con formato semanal que permita al artista organizar sus eventos confirmados, visualizar estados de pago/contrato y acceder a los detalles. |
+| EPIC-22   | Vista rápida y resumen de actividades         | Crear módulos visuales dentro del dashboard que resuman las actividades más relevantes del artista, como próximos eventos y pagos pendientes.                |
+| EPIC-23   | Seguimiento de reservas activas               | Permitir al artista visualizar reservas confirmadas y acceder al detalle de cada una, incluyendo condiciones técnicas y contacto con el promotor.            |
+
+
+
+
+| ID   | Título                                                   | Descripción                                                                                                                                      | Criterios de aceptación | EpicID |
+|------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|--------|
+| US01 | Visualización clara del propósito de la plataforma | Como visitante de ambos segmentos, quiero entender rápidamente qué es TocaAquí y cómo funciona, para saber si es relevante para mí como artista o local. | **Escenario 1: Información destacada en el home**<br>**Dado** que el visitante de ambos segmentos accede a la página principal<br>**Cuando** visualiza el encabezado principal y descripción<br>**Entonces** debe comprender claramente qué es la plataforma y qué roles pueden usarla. | EPIC-01 |
+| US02 | Navegación fluida entre secciones informativas | Como visitante de ambos segmentos, quiero navegar entre secciones como Sobre Nosotros o Planes desde el menú principal, para explorar fácilmente la solución. | **Escenario 1: Menú de navegación funcional**<br>**Dado** que el visitante de ambos segmentos está en cualquier parte de la landing<br>**Cuando** hace clic en un ítem del menú<br>**Entonces** debe redirigirse automáticamente a la sección correspondiente dentro de la misma página. **Escenario 2: Navegación con scroll automático**<br>**Dado** que el visitante hace clic en un ítem del menú<br>**Cuando** selecciona una sección<br>**Entonces** la página debe desplazarse suavemente a dicha sección, sin recargar la página.| EPIC-01 |
+| US03 | Visualización adecuada en móviles y pantallas pequeñas |Como visitante de ambos segmentos, quiero que el sitio se adapte bien a mi celular o tablet, para tener una buena experiencia sin importar el dispositivo. | **Escenario 1: Diseño responsive funcional**<br>**Dado** que el visitante de ambos segmentos accede a la landing desde un dispositivo móvil o tablet<br>**Cuando** navega por la página<br>**Entonces** los elementos deben reorganizarse automáticamente para una visualización óptima. **Escenario 2: Interacción optimizada con elementos táctiles**<br>**Dado** que el visitante accede desde un dispositivo móvil<br>**Cuando** interactúa con botones o menús desplegables<br>**Entonces** los elementos deben responder correctamente al tacto y mantenerse accesibles sin errores de visualización.| EPIC-02 |
+| US04 | Acceso a la versión en inglés del sitio | Como visitante de los segmentos, quiero ver la página en inglés, para comprender toda la información sin barreras de idioma. | **Escenario 1: Cambio de idioma activado**<br>**Dado** que el visitante de ambos segmentos(extranjero) hace clic en el botón “EN” en la barra de navegación<br>**Cuando** se actualiza el contenido<br>**Entonces** todo el texto de la página debe mostrarse correctamente en inglés. | EPIC-03 |
+| US05 | Envío de un mensaje a través del formulario de contacto | Como visitante de ambos segmentos con dudas, quiero enviar un mensaje desde el formulario de contacto, para comunicarme fácilmente con el equipo de TocaAquí. | **Escenario 1: Formulario de contacto funcional**<br>**Dado** que el visitante de ambos segmentos completa todos los campos requeridos<br>**Cuando** hace clic en el botón “Enviar”<br>**Entonces** el formulario debe enviarse correctamente y mostrar un mensaje de confirmación. <br>**Escenario 2: Manejo de errores en formulario**<br>**Dado** que el visitante omite algún campo obligatorio<br>**Cuando** intenta hacer clic en “Enviar”<br>**Entonces** debe visualizarse un mensaje de error que diga “Completa este campo” señalando los campos incompletos.| EPIC-04 |
+| US06 | Selección del tipo de usuario desde la landing | Como visitante de ambos segmentos interesado, quiero seleccionar si soy artista o promotor desde la landing, para empezar mi registro de forma adecuada. | **Escenario 1: Botones de acceso diferenciados**<br>**Dado** que el visitante de ambos segmentos está en la sección principal de la landing<br>**Cuando** hace clic en el botón “Soy artista” o “Soy local”<br>**Entonces** debe ser redirigido al flujo de registro correspondiente al rol elegido. <br>**Escenario 2: Recordatorio de rol para navegación futura**<br>**Dado** que el visitante elige su rol en la landing<br>**Cuando** navega por el sitio<br>**Entonces** las secciones y botones deben mostrarse personalizadas según el rol elegido (artista o local).| EPIC-04 |
+| US07 | Registro como artista en la plataforma | Como visitante del segmento Artista nuevo, quiero registrarme en TocaAquí seleccionando mi rol, para poder acceder a mi panel personalizado. | **Escenario 1: Registro con rol de artista**<br>**Dado** que el visitante del segmento Artista accede al formulario de registro<br>**Cuando** completa sus datos y selecciona la opción “Artista”<br>**Entonces** debe crearse una cuenta con acceso directo al dashboard de artista. | EPIC-05 |
+| US08 | Acceso al dashboard personalizado de artista | Como usuario del segmento Artista registrado, quiero ingresar a un panel con herramientas específicas para músicos, para gestionar mis eventos y perfil fácilmente. | **Escenario 1: Ingreso al dashboard de artista**<br>**Dado** que el usuario del segmento Artista ha iniciado sesión correctamente<br>**Cuando** accede a la plataforma<br>**Entonces** debe visualizar un dashboard con módulos como perfil, postulaciones, agenda y pagos. | EPIC-06 |
+| US09 | Búsqueda de eventos compatibles con mi perfil | Como usuario del segmento Artista, quiero ver eventos recomendados según mi género musical y ubicación, para postular solo a los que se alinean con mi estilo. | **Escenario 1: Recomendación de eventos**<br>**Dado** que el usuario del segmento Artista está en su dashboard<br>**Cuando** accede a la sección de “Eventos recomendados”<br>**Entonces** debe ver tarjetas de eventos filtradas por afinidad musical, localización y disponibilidad. | EPIC-07 |
+| US10 | Postulación rápida a un evento desde la plataforma | Como usuario del segmento Artista, quiero postularme a un evento en pocos pasos, para agilizar mi proceso de presentación. | **Escenario 1: Proceso de postulación**<br>**Dado** que el usuario del segmento Artista encuentra un evento que le interesa<br>**Cuando** hace clic en “Postular”<br>**Entonces** su solicitud debe enviarse al local automáticamente con su perfil adjunto. <br>**Escenario 2: Confirmación visual de postulación**<br>**Dado** que el artista se postula a un evento<br>**Cuando** la postulación es enviada<br>**Entonces** debe ver una notificación o pantalla de confirmación indicando que fue exitosa.| EPIC-07 |
+| US11 | Gestión y edición de mi perfil artístico | Como usuario del segmento Artista, quiero crear y editar mi perfil con biografía, estilo musical y contenido multimedia, para mostrarme profesionalmente a los locales. | **Escenario 1: Perfil editable**<br>**Dado** que el usuario del segmento Artista accede a la sección “Mi perfil”<br>**Cuando** edita su biografía, añade redes o sube archivos multimedia<br>**Entonces** los cambios deben guardarse y visualizarse correctamente en su perfil público. | EPIC-08 |
+| US12 | Subida y validación del rider técnico | Como usuario del segmento Artista confirmado para un show, quiero subir mi rider técnico, para que el promotor lo revise y apruebe antes del evento. | **Escenario 1: Carga de rider técnico**<br>**Dado** que el usuario del segmento Artista tiene un show confirmado<br>**Cuando** accede a la sección de logística<br>**Entonces** debe poder subir un archivo con sus requerimientos técnicos, visible para el promotor. | EPIC-09 |
+| US13 | Visualización de pagos recibidos y pendientes | Como usuario del segmento Artista, quiero revisar mis pagos pendientes, liberados y el historial de ingresos, para tener control sobre mis ganancias. | **Escenario 1: Acceso a pagos**<br>**Dado** que el usuario del segmento Artista ingresa a la sección de “Pagos”<br>**Cuando** revisa su información<br>**Entonces** debe visualizar claramente los pagos realizados, los pendientes por liberar y los montos por cada evento. <br>**Escenario 2: Exportación de historial de pagos**<br>**Dado** que el artista revisa sus pagos<br>**Cuando** selecciona una opción de exportar<br>**Entonces** debe poder descargar un reporte con el historial.| EPIC-10 |
+| US14 | Registro como administrador de local | Como visitante del segmento Promotor/Local de un espacio, quiero registrarme en la plataforma con mi rol, para acceder a herramientas de publicación y gestión de eventos. | **Escenario 1: Registro con rol de local**<br>**Dado** que el visitante del segmento Promotor/Local accede al formulario de registro<br>**Cuando** completa sus datos y selecciona la opción “Promotor / Local”<br>**Entonces** debe crearse una cuenta con acceso al dashboard de local. | EPIC-12 |
+| US15 | Acceso al dashboard del local | Como usuario del segmento Promotor/Local, quiero visualizar un panel con mis shows, publicaciones y herramientas clave, para organizar fácilmente mis eventos. | **Escenario 1: Dashboard del local**<br>**Dado** que el usuario del segmento Promotor/Local inicia sesión con su cuenta de local<br>**Cuando** accede a la plataforma<br>**Entonces** debe ver un dashboard con secciones como eventos agendados, publicar show, agenda y evaluaciones. | EPIC-13 |
+| US16 | Publicación de eventos musicales | Como usuario del segmento Promotor/Local, quiero publicar fechas disponibles con condiciones específicas, para recibir postulaciones de bandas que cumplan mis criterios. | **Escenario 1: Creación de evento**<br>**Dado** que el usuario del segmento Promotor/Local accede a la sección “Publicar evento”<br>**Cuando** completa los datos requeridos (fecha, tipo de música, ubicación, requisitos técnicos)<br>**Entonces** el evento debe quedar visible para los artistas compatibles. | EPIC-14 |
+| US17 | Revisión de postulaciones y selección de artista | Como usuario del segmento Promotor/Local, quiero ver las postulaciones recibidas y elegir la mejor opción, para asegurar un show alineado a mi público. | **Escenario 1: Gestión de postulaciones**<br>**Dado** que hay postulaciones activas en uno de mis eventos<br>**Cuando** accedo al panel de postulaciones<br>**Entonces** puedo revisar perfiles y aceptar una banda para el evento. | EPIC-15 |
+| US18 | Validación del rider técnico enviado por artista | Como usuario del segmento Promotor/Local, quiero revisar el rider técnico que sube el artista y enviar comentarios, para asegurar que la logística esté clara antes del show. | **Escenario 1: Revisión de rider**<br>**Dado** que un usuraio del segmento Artista confirmado ha subido su rider técnico<br>**Cuando** accedo al archivo desde el contrato o agenda<br>**Entonces** debo poder aprobarlo o devolverlo con observaciones. <br>**Escenario 2: Comunicación directa sobre rider**<br>**Dado** que el promotor revisa el rider<br>**Cuando** tiene observaciones<br>**Entonces** puede enviar comentarios directamente desde la interfaz del rider.| EPIC-16 |
+| US19 | Validación del show y ejecución del pago | Como usuario del segmento Promotor/Local, quiero confirmar que un evento se realizó correctamente, para que se libere el pago al artista desde el sistema escrow. | **Escenario 1: Confirmación post show**<br>**Dado** que un evento ha sido completado según el cronograma<br>**Cuando** el usuario del segmento Promotor/Local marca el evento como “realizado”<br>**Entonces** el sistema debe liberar el pago automáticamente al artista. | EPIC-17 |
+| US20 | Evaluación del artista luego del evento | Como usuario del segmento Promotor/Local, quiero calificar a las bandas que se presentaron, para contribuir a la reputación en la comunidad. | **Escenario 1: Evaluación post show**<br>**Dado** que el usuario del segmento Promotor/Local visualiza que un evento haya finalizado con éxito<br>**Cuando** accedo al perfil del usuario del segmento Artista desde el historial<br>**Entonces** puedo dejar una calificación con estrellas y comentarios visibles en su reputación. | EPIC-18 |
+| US21 | Visualización de planes para artistas y promotores/locales | Como  visitante de ambos segmentos, quiero ver claramente los diferentes planes disponibles para artistas y promotores/locales, para decidir cuál se adapta mejor a mis necesidades. | **Escenario 1: Visualización de planes**<br>**Dado** que el visitante de ambos segmentos accede a la sección “Planes” de la landing<br>**Cuando** navega por la sección<br>**Entonces** debe visualizar claramente las diferencias entre los planes Básico, Medio y Premium para cada tipo de usuario. | EPIC-01 |
+| US22 | Acceso rápido a registro desde botones CTA | Como visitante de ambos segmentos interesado, quiero encontrar botones claros para registrarme como artista o como local, para comenzar a usar la plataforma con un clic. | **Escenario 1: Botones CTA visibles**<br>**Dado** que los visitante de ambos segmentos está en la sección principal de la landing<br>**Cuando** ve los botones “Soy artista” o “Soy local”<br>**Entonces** debe poder hacer clic y ser redirigido al formulario de registro correspondiente. | EPIC-04 |
+| US23 | Navegación accesible desde menú fijo | Como visitante de ambos segmentos, quiero contar con un menú que permanezca visible mientras navego, para poder acceder fácilmente a cualquier sección de la página. | **Escenario 1: Menú de navegación sticky**<br>**Dado** que el visitante de ambos segmentos ha comenzado a hacer scroll<br>**Cuando** se desplaza hacia abajo<br>**Entonces** el menú debe seguir visible en la parte superior de la pantalla. | EPIC-02 |
+| US24 | Visualización del equipo de desarrollo en la landing | Como visitante de ambos segmentos curioso, quiero conocer al equipo de personas que desarrolla TocaAquí, para sentir mayor confianza en la solución. | **Escenario 1: Sección “Nuestro equipo” visible**<br>**Dado** que el visitante de ambos segmentos navega hacia la sección del equipo<br>**Cuando** accede a esa parte<br>**Entonces** debe ver las tarjetas con nombre, rol e imagen de cada desarrollador. | EPIC-01 |
+| US25 |Visualización de testimonios de usuarios |Como visitante de ambos segmentos, quiero ver testimonios de artistas y promotores en la landing, para generar confianza en la calidad y efectividad de la plataforma.| **Escenario 1: Sección “Testimonios.” visible**<br>**Dado** que el visitante de ambos segmentos en la landing, <br>**Cuando** accede a la sección de testimonios,<br>**Entonces** puede ver opiniones de usuarios reales con nombre, rol (artista o promotor) y su experiencia resumida. | EPIC-20 |
+| US26 | Botón de Call to Action "Enviar" en la sección de "Contáctanos" | Como visitante de ambos segmentos, quiero ver el botón de "Enviar" en la sección "Contáctanos", para poder enviar mis dudas o consultas directamente a la plataforma. | **Escenario 1: Visualización del botón "Enviar"**<br>**Dado** que el visitante de ambos segmentos está en la sección "Contáctanos" de la landing,<br>**Cuando** visualiza el formulario de contacto,<br>**Entonces** debe ver un botón claramente etiquetado como "Enviar" debajo del formulario.<br><br>**Escenario 2: Envío del formulario de contacto**<br>**Dado** que el visitante de ambos segmentos ha completado todos los campos requeridos del formulario de contacto,<br>**Cuando** hace clic en el botón "Enviar",<br>**Entonces** el formulario debe ser enviado correctamente y mostrar un mensaje de confirmación. | EPIC-06| 
+| US27 | Visualización de próximos eventos agendados   | Como artista registrado, quiero ver un resumen de mis próximos eventos desde el panel principal, para tener claridad de mi agenda sin tener que navegar a otras secciones. | **Escenario 1: Módulo de eventos próximos visible**<br>**Dado** que el artista ha iniciado sesión y tiene eventos agendados<br>**Cuando** accede al dashboard<br>**Entonces** debe visualizar una tarjeta destacada con los próximos eventos, incluyendo fecha, lugar y estado.<br>**Escenario 2: Mensaje vacío si no hay eventos próximos**<br>**Dado** que el artista no tiene eventos agendados<br>**Cuando** accede al dashboard<br>**Entonces** debe visualizar un mensaje claro que indique que aún no tiene eventos próximos. | EPIC-22  |
+| US28 | Visualización de pagos pendientes desde el dashboard | Como artista registrado, quiero ver de forma inmediata si tengo pagos pendientes, para gestionar mejor mis ingresos. | **Escenario 1: Módulo de pagos pendientes visible**<br>**Dado** que el artista tiene eventos realizados<br>**Cuando** el promotor aún no ha liberado el pago<br>**Entonces** el monto y estado del pago deben mostrarse en el panel principal.<br>**Escenario 2: Indicador visual de pago atrasado**<br>**Dado** que un promotor no libera el pago en el tiempo. esperado<br>**Cuando** el artista revisa su sección de pagos pendientes<br>**Entonces** el sistema debe mostrar una alerta visual que indique que hay un pago vencido. |EPIC-06|
+| US29 | Acceso rápido a calificaciones recibidas       | Como artista registrado, quiero ver mis calificaciones directamente desde el panel, para conocer cómo me evalúan los locales. | **Escenario 1: Calificación visible en el panel**<br>**Dado** que el artista ha sido evaluado en eventos anteriores<br>**Cuando** accede al dashboard<br>**Entonces** debe poder ver su calificación promedio y el número de evaluaciones.<br>**Escenario 2: Acceso directo al historial de evaluaciones**<br>**Dado** que el artista desea conocer el detalle de sus calificaciones<br>**Cuando** hace clic sobre el módulo de calificación<br>**Entonces** debe acceder a un listado con las evaluaciones y comentarios recibidos por evento. |EPIC-06|
+| US30 | Visualización de reservas confirmadas          | Como artista registrado, quiero saber si tengo reservas activas con locales, para prepararme adecuadamente para mis presentaciones. | **Escenario 1: Módulo de reservas actualizado**<br>**Dado** que el artista tiene eventos aceptados<br>**Cuando** ingresa al dashboard<br>**Entonces** debe visualizar un resumen de las reservas confirmadas.<br>**Escenario 2: Acceso rápido al detalle de la reserva**<br>**Dado** que el artista tiene una o más reservas confirmadas<br>**Cuando** hace clic sobre la tarjeta de “Reservas”<br>**Entonces** debe visualizar el detalle completo de la reserva, incluyendo condiciones técnicas y contacto del promotor. | EPIC-23   |
+| US31 | Registro de usuario con selección de rol       | Como nuevo visitante, quiero registrarme eligiendo si soy músico/banda o promotor/espacio, para que la plataforma me dirija al flujo adecuado. | **Escenario 1: Registro con selección de rol**<br>**Dado** que el usuario accede a la pantalla de registro<br>**Cuando** selecciona su rol y completa los campos<br>**Entonces** debe crearse la cuenta y redirigirse al dashboard correspondiente al rol.<br>**Escenario 2: Validación de selección de rol**<br>**Dado** que el usuario intenta registrarse sin elegir un rol<br>**Cuando** hace clic en "Registrarse"<br>**Entonces** debe mostrarse un mensaje indicando que debe seleccionar un rol. |EPIC-05   |
+| US32 | Inicio de sesión para usuarios registrados     | Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder a mi panel y funcionalidades personalizadas. | **Escenario 1: Inicio de sesión exitoso**<br>**Dado** que el usuario ha registrado su cuenta previamente<br>**Cuando** ingresa su correo y contraseña correctamente<br>**Entonces** debe ser redirigido a su panel según su rol.<br>**Escenario 2: Mensaje de error por credenciales incorrectas**<br>**Dado** que el usuario introduce datos incorrectos<br>**Cuando** hace clic en “Iniciar sesión”<br>**Entonces** debe mostrarse un mensaje de error que le indique revisar sus credenciales. |EPIC-05   |
+| US33 | Visualización de pagos recibidos y pendientes | Como artista, quiero visualizar mis pagos recibidos y pendientes, para hacer seguimiento de mis ingresos por eventos. | **Escenario 1: Listado de pagos recibidos**<br>**Dado** que el artista accede a la sección "Pagos Recibidos"<br>**Cuando** la página se carga<br>**Entonces** debe ver una tabla con el listado de pagos, mostrando el evento, monto, estado, fecha y botón de acción para ver detalles.<br>**Escenario 2: Visualización detallada del estado del pago**<br>**Dado** que el artista accede a la sección "Pagos Recibidos"<br>**Cuando** hace clic en el ícono de acción en la tabla<br>**Entonces** debe visualizarse una ventana emergente con el detalle del pago, incluyendo información del evento, monto, método de pago, banco, número de cuenta y estado del pago.<br>**Escenario 3: Identificación visual del estado del pago**<br>**Dado** que el artista observa la tabla de pagos<br>**Cuando** ve el estado de cada pago<br>**Entonces** debe poder identificar fácilmente si el estado es "Pendiente", "Retenido" o "Completado", con etiquetas de color distintivo. |EPIC-10   | 
+| US34 | Visualización de agenda de eventos | Como artista, quiero visualizar mis eventos confirmados en una agenda, para organizar mis fechas y acceder fácilmente a los detalles. | **Escenario 1: Visualización semanal de agenda**<br>**Dado** que el artista accede a la sección "Agenda"<br>**Cuando** se carga la vista<br>**Entonces** debe mostrarse el calendario en formato semanal con los eventos confirmados marcados en su respectiva fecha.<br>**Escenario 2: Detalles de eventos confirmados**<br>**Dado** que el artista tiene eventos confirmados<br>**Cuando** revisa la agenda<br>**Entonces** debe poder ver el nombre del evento, fecha, hora, lugar y estado del contrato y pago.<br>**Escenario 3: Indicadores visuales de estado**<br>**Dado** que el evento tiene estados asociados<br>**Cuando** se muestran los detalles del evento<br>**Entonces** deben visualizarse etiquetas como “Contrato firmado” y “Pago 50%” de manera clara y diferenciada. |EPIC-21  | 
+| US35 | Confirmación visual del estado del contrato | Como artista, quiero visualizar fácilmente si un contrato fue firmado por ambas partes, para estar seguro del compromiso.| **Escenario 1: Estado visible en el dashboard**<br>**Dado** que el artista tiene un contrato pendiente o firmado"<br>**Cuando** accede a su panel<br>**Entonces** debe ver una tarjeta con el estado actual (“Pendiente”, “Firmado por ambos”)<br>**Escenario 2: Enlace directo**<br>**Cuando** selecciona el enlace <br>**Entonces** accede al contrato|EPIC-11  | 
+| US36 | Visualización de validación de rider técnico|Como artista, quiero saber si mi rider técnico fue validado por el promotor, para confirmar logística.| **Escenario 1:  Estado del rider en dashboard**<br>**Dado** que el rider ha sido validado o rechazado<br>**Cuando** el artista entra al dashboard<br>**Entonces**debe ver una tarjeta con el estado “Aprobado” o “Rechazado” y la fecha.<br>**Escenario 2: Acceso a rider**<br>**Cuando** selecciona el enlace <br>**Entonces** accede al rider subido.|EPIC-15  | 
+| US37 | Indicador de pago liberado en el evento |Como artista, quiero saber que el evento ya fue confirmado como realizado.| **Escenario 1:  Estado de pago actualizado**<br>**Dado** que el evento ya fue confirmado como realizado<br>**Cuando** el artista accede a la vista de detalle<br>**Entonces** se debe mostrar el estado: “Pago liberado” o “Pago en revisión”.<br>**Escenario 2: Acceso a comprobante**<br>**Dado** que el usuario ha recibido un pago exitosamente <br>**Cuando** accede a la sección de comprobantes <br>**Entonces**  puede descargar un comprobante de pago.|EPIC-10  | 
+| US38 | Acceso directo al contrato desde el evento |Como artista, quiero acceder directamente al contrato firmado desde la ficha del evento, para consultar condiciones.| **Escenario 1: Botón “Ver contrato**<br>**Dado** que el evento ya tiene un contrato firmado<br>**Cuando** el artista ve la ficha del evento<br>**Entonces** debe visualizar un botón “Ver contrato”.<br>**Escenario 2: Visualización en PDF**<br>**Dado** que el contrato ya ha sido firmado y el botón "Ver contrato" está disponible <br> **Cuando** el artista hace selecciona el botón “Ver contrato” <br>**Entonces** el contrato debe abrirse en una vista PDF o descargarse.|EPIC-11  | 
+| US39 | Edición del perfil del promotor |Como promotor, quiero editar mi perfil con la información de mi local, para mantener mis datos actualizados y visibles para los artistas.| **Escenario 1:  Edición exitosa del perfil**<br>**Dado** que el promotor accede a la sección de perfil<br>**Cuando**  modifica datos como nombre del local, ciudad y descripción <br>**Entonces** el perfil se actualiza correctamente.<br>**Escenario 2:  Datos incompletos**<br>**Dado** que el promotor accede a la sección de perfil <br>**Cuando** intenta guardar el formulario sin completar todos los campos obligatorios <br>**Entonces** se muestra un mensaje de error.|EPIC-09| 
+| TS01 | Registro de usuario (artista o promotor) a través de un RESTful API | Como desarrollador, quiero implementar el registro de usuarios a través de un RESTful API, para que puedan acceder a la plataforma según su rol. |**Escenario 1: Registro exitoso**<br>**Dado** que el endpoint “/api/v1/users/register” está disponible<br>**Cuando** se envía un POST request con nombre, correo, contraseña y rol (artista/promotor)<br>**Entonces** se recibe un status 201<br>**Y** el body contiene el usuario creado con su ID, nombre y rol.<br><br>**Escenario 2: Registro con correo duplicado**<br>**Dado** que el correo ya está registrado<br>**Cuando** se envía el mismo correo en un nuevo request<br>**Entonces** se recibe un status 400<br>**Y** el body contiene el mensaje: "El correo ya está registrado en el sistema." | 
+| TS02 | Inicio de sesión mediante RESTful API | Como desarrollador, quiero implementar el login a través de un RESTful API, para autenticar a los usuarios y dar acceso al dashboard correspondiente. | **Escenario 1: Inicio de sesión válido**<br>**Dado** que el endpoint “/api/v1/auth/login” está disponible<br>**Cuando** se envía un POST con email y contraseña válidos<br>**Entonces** se recibe un status 200<br>**Y** se devuelve un token JWT y los datos del usuario.<br><br>**Escenario 2: Credenciales incorrectas**<br>**Dado** que el usuario envía datos inválidos<br>**Cuando** intenta hacer login<br>**Entonces** se recibe un status 401<br>**Y** el mensaje es: "Credenciales incorrectas. " | |
+| TS03 | Publicar evento desde un RESTful API | Como desarrollador, quiero permitir que un local publique un evento a través de un RESTful API, para mostrarlo en la sección de eventos disponibles. | **Escenario 1: Publicación exitosa**<br>**Dado** que el endpoint “/api/v1/events” está disponible<br>**Cuando** se envía un POST con fecha, nombre, aforo, género musical y requisitos<br>**Entonces** se recibe un status 201<br>**y** el evento queda registrado y visible en el sistema.<br><br>**Escenario 2: Fecha ya ocupada por el mismo local**<br>**Dado** que ya existe un evento en esa fecha<br>**Cuando** se intenta registrar uno nuevo<br>**Entonces** se recibe un status 409<br>**Y** el mensaje dice: "Ya tienes un evento registrado para esa fecha." | |
+| TS04 | Postulación del artista a un evento vía RESTful API | Como desarrollador, quiero permitir que un artista postule a un evento mediante un RESTful API, para registrar su interés formalmente. | **Escenario 1: Postulación exitosa**<br>**Dado** que el endpoint “/api/v1/applications” está disponible<br>**Cuando** se envía un POST con ID del artista e ID del evento<br>**Entonces** se recibe un status 201<br>**Y** el sistema guarda la postulación con estado “pendiente”.<br><br>**Escenario 2: Postulación duplicada**<br>**Dado** que el artista ya postuló al mismo evento<br>**Cuando** se intenta postular nuevamente<br>**Entonces** se recibe un status 400<br>**Y** el mensaje es: "Ya has postulado a este evento anteriormente." | |
+| TS05 | Firma del contrato digital mediante RESTful API | Como desarrollador, quiero permitir que artista y local firmen un contrato desde la plataforma usando un RESTful API, para formalizar el acuerdo. | **Escenario 1: Firma exitosa**<br>**Dado** que el endpoint “/api/v1/contracts/{id}/sign” está disponible<br>**Cuando** el usuario firma el contrato<br>**Entonces** se actualiza su estado a “firmado” y se registra la fecha.<br><br>**Escenario 2: Usuario no autorizado para firmar**<br>**Dado** que el usuario no forma parte del contrato<br>**Cuando** intenta firmarlo<br>**Entonces** se recibe un status 403<br>**Y** el mensaje es: "No tienes permisos para firmar este contrato." | |
+| TS06 | Subir rider técnico mediante RESTful API | Como desarrollador, quiero permitir que los artistas suban su rider técnico a través de un RESTful API, para que los promotores lo validen antes del evento. | **Escenario 1: Subida de rider técnico exitosa**<br>**Dado** que el endpoint “/api/v1/riders” está disponible<br>**Cuando** se envía un POST request con el archivo PDF y datos del evento<br>**Entonces** se recibe un status 201<br>**Y** el archivo queda vinculado al contrato y accesible para el promotor.<br><br>**Escenario 2: Faltan datos obligatorios**<br>**Dado** que el artista intenta subir un rider sin adjuntar archivo<br>**Cuando** se hace el POST<br>**Entonces** se recibe un status 400<br>**Y** el mensaje es: "Debes adjuntar un archivo de rider técnico." | |
+| TS07 | Validación del rider técnico por el promotor vía RESTful API | Como desarrollador, quiero permitir que los promotores validen o rechacen el rider técnico mediante un RESTful API, para coordinar la logística del evento. | **Escenario 1: Validación aprobada**<br>**Dado** que el endpoint “/api/v1/riders/{id}/validate” está disponible<br>**Cuando** el promotor aprueba el rider<br>**Entonces** se actualiza el estado a “aprobado” y se registra la fecha.<br><br>**Escenario 2: Rechazo con observaciones**<br>**Dado** que el promotor encuentra errores<br>**Cuando** marca el rider como rechazado<br>**Entonces** se guarda el estado como “rechazado” y se adjunta el motivo. | |
+| TS08 | Confirmación del evento y liberación de pago vía RESTful API | Como desarrollador, quiero que el promotor confirme la realización del evento mediante un RESTful API, para activar la liberación del pago al artista. | **Escenario 1: Confirmación exitosa**<br>**Dado** que el endpoint “/api/v1/events/{id}/confirm” está disponible<br>**Cuando** el promotor marca el evento como realizado<br>**Entonces** el sistema cambia el estado a “completado” y habilita el pago.<br><br>**Escenario 2: Evento ya confirmado**<br>**Dado** que el evento ya fue validado<br>**Cuando** se intenta confirmar nuevamente<br>**Entonces** se recibe un status 409<br>**Y** el mensaje es: "El evento ya ha sido confirmado." | |
+| TS09 | Liberación automática del pago por escrow mediante RESTful API | Como desarrollador, quiero implementar la lógica de liberación de pagos por escrow a través de un RESTful API, para que el artista reciba su dinero al concluir el evento. | **Escenario 1: Liberación exitosa**<br>**Dado** que el endpoint “/api/v1/payments/release” está disponible<br>**Cuando** se recibe la confirmación de evento completado<br>**Entonces** el sistema transfiere el monto al artista y lo registra como “pagado”.<br><br>**Escenario 2: Contrato sin firma previa**<br>**Given** que el contrato no está firmado por ambas partes<br>**When** se intenta liberar el pago<br>**Then** se recibe un status 400<br>**And** el mensaje es: "El contrato debe estar firmado antes de liberar el pago." | |
+| TS10 | Evaluación post-evento mediante RESTful API | Como desarrollador, quiero permitir que artistas y locales se evalúen mutuamente a través de un RESTful API, para construir la reputación dentro de la plataforma. | **Escenario 1: Evaluación válida**<br>**Dado** que el endpoint “/api/v1/reviews” está disponible<br>**Cuando** un usuario envía una calificación con estrellas y comentario<br>**Entonces** se guarda la evaluación y se vincula al perfil evaluado.<br><br>**Escenario 2: Evaluación repetida**<br>**Dado** que el usuario ya evaluó ese evento<br>**Cuando** intenta enviar otra evaluación<br>**Entonces** se recibe un status 409<br>**Y** el mensaje es: "Ya has evaluado este evento." | |
+| TS11 | Exploración de eventos disponibles vía RESTful API | Como desarrollador, quiero implementar un endpoint que permita a los artistas explorar eventos disponibles, para que puedan filtrarlos y postular. | **Escenario 1: Exploración con filtros**<br>**Dado** que el endpoint “/api/v1/events” está disponible<br>**Cuando** el artista envía un GET con parámetros como género, ciudad y fecha<br>**Entonces** se recibe un status 200<br>**Y** el body contiene una lista filtrada de eventos disponibles.<br><br>**Escenario 2: No hay eventos compatibles**<br>**Dado** que no existen eventos con esos filtros<br>**Cuando** se realiza el GET<br>**Entonces** se recibe un status 200<br>**Y** el body contiene una lista vacía. | |
+| TS12 | Visualización de postulaciones del artista vía RESTful API | Como desarrollador, quiero permitir que el artista vea sus postulaciones enviadas a través de un RESTful API, para que pueda seguir su estado. | **Escenario 1: Visualización exitosa**<br>**Dado** que el endpoint “/api/v1/applications” está disponible<br>**Cuando** el artista hace un GET autenticado<br>**Entonces** se recibe un status 200<br>**Y** el body muestra todas las postulaciones con su estado: pendiente, aceptado o rechazado.<br><br>**Escenario 2: El artista no ha postulado a ningún evento**<br>**Dado** que no existen postulaciones en su cuenta<br>**Cuando** accede al endpoint<br>**Entonces** se recibe un status 204<br>**Y** el body no contiene contenido. | |
+| TS13 | Carga y edición del perfil artístico vía RESTful API | Como desarrollador, quiero permitir que el artista cree y edite su perfil mediante un RESTful API, para mantener su información profesional actualizada. | **Escenario 1: Edición exitosa del perfil**<br>**Dado** que el endpoint “/api/v1/artists/profile” está disponible<br>**Cuando** se envía un PUT con datos como nombre artístico, bio, redes y links<br>**Entonces** se recibe un status 200<br>**Y** el perfil queda actualizado y disponible para los locales.<br><br>**Escenario 2: Datos faltantes**<br>**Dado** que se omiten campos obligatorios como nombre artístico<br>**When** se hace el PUT<br>**Then** se recibe un status 400<br>**And** el mensaje es: "Faltan datos obligatorios para actualizar el perfil." | |
+| TS14 | Exploración de artistas disponibles vía RESTful API | Como desarrollador, quiero permitir que los locales consulten perfiles de artistas mediante un RESTful API, para invitarlos a postular a sus eventos. | **Escenario 1: Filtro por género musical y ciudad**<br>**Dado** que el endpoint “/api/v1/artists” está disponible<br>**Cuando** se hace un GET con filtros<br>**Entonces** se recibe un status 200<br>**Y** se devuelve una lista de perfiles con su reputación y estilo musical.<br><br>**Escenario 2: No se encuentran artistas compatibles**<br>**Dado** que los filtros no arrojan resultados<br>**Cuando** se hace el GET<br>**Entonces** se recibe un status 200<br>**Y** se devuelve una lista vacía. | |
+| TS15 | Publicación de fechas disponibles del local vía RESTful API | Como desarrollador, quiero permitir que el promotor registre sus fechas disponibles mediante un RESTful API, para que los artistas puedan postular. | **Escenario 1: Publicación de disponibilidad**<br>**Dado** que el endpoint “/api/v1/availability” está disponible<br>**Cuando** se envía un POST con la fecha, hora y condiciones del espacio<br>**Entonces** se recibe un status 201<br>**Y** la disponibilidad queda publicada para artistas compatibles.<br><br>**Escenario 2: Fecha ya publicada**<br>**Dado** que el promotor ya registró esa fecha<br>**Cuando** se intenta registrar de nuevo<br>**Entonces** se recibe un status 409<br>**Y** el mensaje dice: "Ya registraste disponibilidad para esa fecha." | |
+| TS16 | Gestión de agenda del artista vía RESTful API | Como desarrollador, quiero permitir que los artistas consulten su agenda de eventos confirmados mediante un RESTful API, para organizar su calendario. | **Escenario 1: Consulta de agenda**<br>**Dado** que el endpoint “/api/v1/artists/calendar” está disponible<br>**Cuando** el artista autenticado hace un GET<br>**Entonces** se recibe un status 200<br>**Y** el body contiene la lista de eventos confirmados con fecha y hora.<br><br>**Escenario 2: Sin eventos programados**<br>**Dado** que no hay eventos confirmados<br>**Cuando** el artista hace el GET<br>**Entonces** se recibe un status 204<br>**Y** no se retorna contenido. | |
+| TS17 | Gestión de agenda del local vía RESTful API | Como desarrollador, quiero permitir que los locales visualicen todos los eventos agendados en su espacio, para tener control logístico. | **Escenario 1: Consulta de agenda del local**<br>**Dado** que el endpoint “/api/v1/locals/calendar” está disponible<br>**Cuando** el promotor autenticado hace un GET<br>**Entonces** se recibe un status 200<br>**Y** se listan los eventos con fecha, artista y estado.<br><br>**Escenario 2: Sin eventos en la agenda**<br>**Dado** que no hay ningún show programado<br>**Cuando** el GET es ejecutado<br>**Entonces** se recibe un status 204<br>**Y** no hay contenido en el response. | |
+| TS18 | Generación de entradas digitales vía RESTful API | Como desarrollador, quiero permitir que los locales generen entradas digitales con códigos QR a través de un RESTful API, para facilitar el acceso al evento. | **Escenario 1: Generación exitosa de entradas**<br>**Dado** que el endpoint “/api/v1/tickets” está disponible<br>**Cuando** se envía un POST con los datos del evento y cantidad de entradas<br>**Entonces** se recibe un status 201<br>**Y** el body devuelve los códigos QR asociados a cada entrada.<br><br>**Escenario 2: Número de entradas inválido**<br>**Dado** que se intenta generar 0 o entradas negativas<br>**Cuando** se hace el POST<br>**Entonces** se recibe un status 400<br>**Y** el mensaje indica: "El número de entradas debe ser mayor a cero." | |
+| TS19 | Estadísticas de promoción del evento vía RESTful API | Como desarrollador, quiero permitir que los locales accedan a estadísticas de promoción mediante un RESTful API, para conocer el impacto de difusión del show. | **Escenario 1: Acceso a estadísticas del evento**<br>**Dado** que el endpoint “/api/v1/events/{id}/stats” está disponible<br>**Cuando** el promotor hace un GET<br>**Entonces** se recibe un status 200<br>**Y** el body incluye visitas, clics, entradas compartidas y confirmaciones.<br><br>**Escenario 2: Evento sin datos de promoción**<br>**Dado** que el evento aún no ha sido compartido<br>**Cuando** se consulta el endpoint<br>**Entonces** se recibe un status 204<br>**Y** no se devuelve contenido. | |
+| TS20 | Carga de multimedia en el perfil del artista vía RESTful API | Como desarrollador, quiero que los artistas puedan subir audios, videos o enlaces a su perfil a través de un RESTful API, para mejorar su visibilidad profesional. | **Escenario 1: Carga exitosa de contenido**<br>**Dado** que el endpoint “/api/v1/artists/media” está disponible<br>**Cuando** el artista sube un archivo multimedia o URL<br>**Entonces** se recibe un status 201<br>**Y** el archivo se asocia correctamente a su perfil público.<br><br>**Escenario 2: Formato no permitido**<br>**Dado** que se intenta subir un archivo no válido<br>**Cuando** se hace el POST<br>**Entonces** se recibe un status 400<br>**Y** el mensaje es: "Formato de archivo no permitido. Usa MP3, MP4 o enlaces válidos." | |
+| TS21 | Estructura HTML de la landing page | Como desarrollador, quiero que la landing page de TocaAquí tenga una estructura HTML básica para una presentación clara y ordenada. | **Escenario 1: Estructura básica**<br>**Dado** que la página está vacía,<br>**Cuando** se estructura el HTML,<br>**Entonces** la página contiene las secciones requeridas (encabezado, cuerpo y pie de página).<br>**Y** el código es semántico y accesible. |
+| TS22 | Diseño responsivo de la landing page | Como desarrollador, quiero que la landing page sea completamente responsiva para garantizar su correcta visualización en diferentes dispositivos. | **Escenario 1: Visualización responsiva**<br>**Dado** que la landing page está creada,<br>**Cuando** se visualiza en diferentes dispositivos (móvil, tableta, escritorio),<br>**Entonces** la página se adapta correctamente y las secciones se reorganizan según el tamaño de la pantalla. |
+| TS23 | Integración de imágenes y multimedia | Como desarrollador, quiero integrar imágenes y otros elementos multimedia en la landing page para mejorar la estética y presentación. | **Escenario 1: Integración de imágenes**<br>**Dado** que la página tiene espacio para imágenes,<br>**Cuando** se agregan imágenes optimizadas y multimedia (videos, iconos),<br>**Entonces** las imágenes y multimedia deben aparecer correctamente sin afectar el tiempo de carga. |
+| TS24 | Implementación de animaciones y transiciones | Como desarrollador, quiero agregar animaciones y transiciones suaves en la landing page para mejorar la experiencia de usuario. | **Escenario 1: Animaciones al hacer scroll**<br>**Dado** que se ha implementado la landing page,<br>**Cuando** el usuario hace scroll en la página,<br>**Entonces** las animaciones deben ser suaves y las transiciones entre secciones deben ser claras y no intrusivas. |
+| TS25 | Implementación de formularios de contacto | Como desarrollador, quiero que los usuarios puedan contactar con el equipo a través de un formulario en la landing page. | **Escenario 1: Formulario de suscripción**<br>**Dado** que se ha agregado un formulario de contacto,<br>**Cuando** el usuario ingresa su nombre, correo electrónico y mensaje,<br>**Entonces** el formulario debe validar correctamente los datos y enviarlos a la base de datos. |
+| TS26 | Despliegue de la Landing Page en GitHub Pages | Como desarrollador, quiero desplegar la landing page de TocaAquí en GitHub Pages para que esté accesible públicamente. | **Escenario 1: Despliegue en GitHub Pages**<br>**Dado** que el código está en un repositorio de GitHub,<br>**Cuando** habilito GitHub Pages desde la configuración del repositorio,<br>**Entonces** la landing page debe estar accesible en el enlace proporcionado por GitHub Pages. |
+| TS27 | Activar Swagger en entorno de producción | Como desarrollador backend, quiero habilitar Swagger UI también fuera del entorno de desarrollo, para que los equipos de frontend y QA puedan consultar la documentación en producción. | **Escenario 1: Visualización de Swagger en producción**<br>**Dado** que Swagger está habilitado sin condicionales,<br>**Cuando** accedo a la URL `/swagger` en producción,<br>**Entonces** se muestra la documentación de la API correctamente.<br><br>**Escenario 2: Carga sin errores**<br>**Dado** que Swagger se configuró correctamente,<br>**Cuando** se inicia la aplicación,<br>**Entonces** Swagger carga sin errores y muestra todos los endpoints documentados. |
+| TS28 | Consolidar múltiples bloques de Swagger en middleware | Como desarrollador, quiero evitar duplicidad en la configuración de Swagger, para mantener el código limpio y prevenir errores de configuración. | **Escenario 1: Middleware unificado**<br>**Dado** que existen múltiples configuraciones de Swagger dispersas en el pipeline,<br>**Cuando** se consolidan en un solo bloque antes de `UseHttpsRedirection`,<br>**Entonces** la aplicación inicia correctamente sin conflictos ni duplicaciones.<br><br>**Escenario 2: Eliminación de duplicados**<br>**Dado** que se eliminan llamadas repetidas a `app.UseSwagger()` y `app.UseSwaggerUI()`,<br>**Cuando** se prueba la aplicación,<br>**Entonces** Swagger sigue funcionando y se reduce el riesgo de errores de configuración. |
+| TS29 | Configurar CORS para entornos productivos | Como desarrollador backend, quiero asegurar que el CORS esté configurado adecuadamente, para permitir peticiones seguras desde el frontend en producción. | **Escenario 1: Política restrictiva aplicada**<br>**Dado** que se ha reemplazado la política "AllowAll" por una específica,<br>**Cuando** un origen no autorizado intenta acceder a la API,<br>**Entonces** se recibe un error 403 por política de CORS.<br> |
+| TS30 | Configurar archivo de publicación MSDeploy | Como desarrollador backend, quiero establecer correctamente el archivo `.pubxml`, para poder desplegar la aplicación a producción con MSDeploy. | **Escenario 1: Archivo .pubxml correctamente configurado**<br>**Dado** que el archivo incluye WebPublishMethod, MSDeployServiceURL y DeployIisAppPath,<br>**Cuando** se ejecuta la publicación desde Visual Studio o el pipeline,<br>**Entonces** la aplicación se despliega exitosamente sin errores.<br> |
+| TS31 | Validar publicación automática con credenciales | Como responsable de despliegue, quiero asegurarme que el proyecto publique automáticamente sin errores, para garantizar entregas continuas a staging/producción. | **Escenario 1: Publicación sin intervención manual**<br>**Dado** que los campos `UserName`, `_SavePWD` y `EnableMsDeployAppOffline` están correctamente configurados en `.pubxml`,<br>**Cuando** se ejecuta el proceso de publicación,<br>**Entonces** la aplicación se despliega automáticamente sin requerir acciones adicionales.<br> |
+| TS32 | Configurar HTTPS Redirection | Como desarrollador, quiero forzar el uso de HTTPS, para mantener segura la comunicación con la API en producción. | **Escenario 1: Redirección automática habilitada**<br>**Dado** que un usuario realiza una petición HTTP,<br>**Cuando** la aplicación está configurada con `app.UseHttpsRedirection()`,<br>**Entonces** la solicitud es redirigida automáticamente a HTTPS.<br> |
+| TS33 | Documentar configuración Swagger en README | Como desarrollador, quiero que Swagger esté descrito en la documentación del proyecto, para que otros desarrolladores sepan cómo acceder a la UI en desarrollo y producción. | **Escenario 1: Acceso a documentación técnica**<br>**Dado** que se incluye en el README la URL `/swagger`,<br>**Cuando** un desarrollador nuevo clona el proyecto,<br>**Entonces** puede acceder rápidamente a la interfaz de Swagger sin necesidad de configuración adicional.<br>|
+| TS34 | Crear Query para listar todos los pagos | Como desarrollador backend, quiero definir un objeto de consulta `GetAllPaymentsQuery`, para implementar la recuperación desacoplada de datos en el módulo de pagos usando el patrón CQRS. | **Escenario 1: Consulta general de pagos**<br>**Dado** que se implementa el record `GetAllPaymentsQuery` en la capa de dominio,<br>**Cuando** se ejecuta desde un handler CQRS,<br>**Entonces** se retorna la lista completa de pagos existentes en el sistema.<br>|
+| TS35 | Crear interfaz IPaymentRepository | Como desarrollador backend, quiero definir una interfaz `IPaymentRepository` que extienda de `IBaseRepository<Payment>`, para aplicar el patrón de repositorio y desacoplar la lógica de acceso a datos en el módulo Payments. | **Escenario 1: Interfaz con métodos personalizados**<br>**Dado** que el dominio de pagos requiere consultas específicas,<br>**Cuando** defino métodos como `FindByMusicianIdAsync`, `FindByPromoterIdAsync` y `FindByEventIdAsync` en la interfaz,<br>**Entonces** los servicios y handlers pueden consultar los datos de forma desacoplada.<br><br>**Escenario 2: Documentación de métodos**<br>**Dado** que se agregan comentarios XML a cada método,<br>**Cuando** se revisa la interfaz en el IDE,<br>**Entonces** los desarrolladores pueden comprender claramente su propósito y parámetros. |
+| TS36 | Refactorizar acceso a datos usando IPaymentRepository | Como desarrollador backend, quiero utilizar `IPaymentRepository` en los handlers de consulta, para evitar acoplamiento directo a Entity Framework en las capas superiores. | **Escenario 1: Uso de inyección de dependencias**<br>**Dado** que el handler de CQRS requiere acceso a datos,<br>**Cuando** inyecto `IPaymentRepository` en lugar del `DbContext`,<br>**Entonces** se mejora la mantenibilidad y la separación de responsabilidades.<br><br>**Escenario 2: Facilitación de pruebas unitarias**<br>**Dado** que los repositorios están desacoplados,<br>**Cuando** escribo pruebas unitarias para los handlers,<br>**Entonces** puedo usar mocks o stubs para simular el comportamiento de acceso a datos. |
+| TS37 | Unificar y estandarizar cadena de conexión MySQL | Como desarrollador backend, quiero definir una cadena de conexión estándar en `appsettings.json`, para asegurar consistencia entre entornos y facilidad de mantenimiento. | **Escenario 1: Cadena de conexión uniforme**<br>**Dado** que se define la clave `DefaultConnection` en `appsettings.json`,<br>**Cuando** la aplicación accede a la base de datos,<br>**Entonces** se conecta correctamente tanto en desarrollo como en producción.<br><br>**Escenario 2: Compatibilidad con paquetes EF Core**<br>**Dado** que se usa `Pomelo.EntityFrameworkCore.MySql` como proveedor,<br>**Cuando** se ejecuta la migración o se inicializa el contexto,<br>**Entonces** la configuración de conexión funciona sin errores. |
+| TS38 | Configurar paquetes Entity Framework y MySQL | Como desarrollador backend, quiero registrar los paquetes necesarios para trabajar con MySQL y Entity Framework Core, para ejecutar consultas SQL y migraciones contra la base de datos. | **Escenario 1: Instalación de paquetes compatibles**<br>**Dado** que el proyecto requiere soporte para MySQL,<br>**Cuando** agrego los paquetes `Pomelo.EntityFrameworkCore.MySql` y `Microsoft.EntityFrameworkCore.*`,<br>**Entonces** la aplicación puede interactuar con la base de datos sin errores de compatibilidad.<br><br>**Escenario 2: Ejecución de migraciones exitosa**<br>**Dado** que los paquetes están correctamente registrados en el `.csproj`,<br>**Cuando** ejecuto `Add-Migration` o `Update-Database`,<br>**Entonces** las migraciones se generan y aplican correctamente en MySQL. |
+| TS39 | Establecer configuración estructurada de logging | Como desarrollador backend, quiero definir una configuración detallada de niveles de log para distintas fuentes, para tener visibilidad del comportamiento del sistema tanto en desarrollo como producción. | **Escenario 1: Configuración de niveles de log por componente**<br>**Dado** que se define `"Default": "Information"` y `"Microsoft": "Warning"` en `appsettings.json`,<br>**Cuando** se ejecuta la aplicación,<br>**Entonces** los logs del sistema operativo y del framework se filtran correctamente.<br><br>**Escenario 2: Registro del ciclo de vida de la aplicación**<br>**Dado** que `"Microsoft.Hosting.Lifetime"` está configurado como `"Information"`,<br>**Cuando** la aplicación inicia o finaliza,<br>**Entonces** se registran mensajes clave de arranque y cierre. |
+| TS40 | Validar JWT Secret de mínimo 32 caracteres | Como desarrollador backend, quiero asegurar que la clave JWT (`Jwt:Secret`) tenga al menos 32 caracteres, para proteger correctamente los tokens generados y evitar vulnerabilidades. | **Escenario 1: Secreto JWT válido**<br>**Dado** que se configura una clave con 32 o más caracteres en `appsettings.json`,<br>**Cuando** se generan tokens JWT,<br>**Entonces** la firma es válida y segura según los estándares de autenticación.<br><br>**Escenario 2: Prevención de claves inseguras**<br>**Dado** que la aplicación valida la longitud del `Jwt:Secret`,<br>**Cuando** se intenta usar una clave menor a 32 caracteres,<br>**Entonces** se lanza una excepción o advertencia en tiempo de arranque. |
+| TS41 | Migrar dependencias a Entity Framework Core 8 y Swagger 6 | Como desarrollador backend, quiero actualizar los paquetes de NuGet a versiones estables más recientes, para asegurar compatibilidad con EF Core 8 y Swagger/OpenAPI 6.x. | **Escenario 1: Migración de paquetes completada**<br>**Dado** que se actualizan los paquetes a  `Microsoft.EntityFrameworkCore 8.0.0`, `Pomelo.EntityFrameworkCore.MySql 8.0.0` y `Swashbuckle.AspNetCore 6.6.2`,<br>**Cuando** compilo y ejecuto el proyecto,<br>**Entonces** el backend funciona correctamente sin errores de dependencia.<br><br>**Escenario 2: Eliminación de dependencias obsoletas**<br>**Dado** que paquetes como `MediaR.*` y `BCrypt.Net` ya no son requeridos,<br>**Cuando** los elimino del `.csproj`,<br>**Entonces** se reduce el peso del proyecto y se evita mantenimiento innecesario. |
+| TS42 | Habilitar documentación sincronizada para frontend | Como desarrollador frontend, quiero tener acceso a documentación Swagger organizada por módulo y endpoint, para consumir correctamente la API desde el cliente sin depender del backend en ejecución. | **Escenario: Acceso centralizado a documentación**<br>**Dado** que Swagger está habilitado en el backend y accesible desde `/swagger`,<br>**Cuando** ingreso a esa ruta desde el navegador,<br>**Entonces** puedo consultar los endpoints de cada módulo con sus métodos, parámetros y ejemplos estructurados. |
+| TS43 | Integrar JSON Server para simulación de endpoints | Como desarrollador frontend, quiero simular múltiples endpoints usando JSON Server, para desarrollar interfaces aunque el backend no esté disponible. | **Escenario 1: Simulación de datos en desarrollo**<br>**Dado** que el backend aún no está operativo,<br>**Cuando** levanto JSON Server con archivos `.json` estructurados (por ejemplo, `events.json`, `users.json`),<br>**Entonces** el frontend puede consumir datos simulados y seguir avanzando en su desarrollo.<br><br>**Escenario 2: Coincidencia con rutas reales**<br>**Dado** que los endpoints mockeados replican las rutas reales de la API (`/api/v1/events`, `/api/v1/payments`, etc.),<br>**Cuando** ejecuto las vistas conectadas,<br>**Entonces** la integración es transparente y sin necesidad de modificar el código. |
+| TS44 | Estandarizar rutas de consumo API REST en frontend | Como desarrollador frontend, quiero consumir todos los recursos del backend usando rutas versionadas (/api/v1/...), para asegurarme de estar alineado con la documentación de Swagger y evitar fallos por cambios de rutas. | **Escenario 1: Actualización de endpoints en servicios**<br>**Dado** que algunos servicios consumen rutas sin prefijo,<br>**Cuando** modifico las llamadas a rutas como `/api/v1/users/:id` o `/api/v1/events`,<br>**Entonces** las peticiones se alinean con la API real documentada.<br><br>**Escenario 2: Integración sin errores de ruta**<br>**Dado** que todos los servicios frontend utilizan rutas versionadas,<br>**Cuando** se despliega el proyecto,<br>**Entonces** no se generan errores 404 ni conflictos por endpoints incorrectos. |
+| TS45 | Integrar opciones internacionales y tipadas para géneros musicales | Como desarrollador frontend, quiero usar una fuente única de opciones de géneros musicales con soporte para i18n y valores backend, para mantener consistencia entre lo visual, los datos enviados y la traducción de la interfaz. | **Escenario 1: Dropdown internacionalizado**<br>**Dado** que se implementa `getMusicGenreOptions(t)` para obtener las opciones,<br>**Cuando** el usuario visualiza el selector de género,<br>**Entonces** las etiquetas aparecen traducidas según el idioma de la interfaz.<br><br>**Escenario 2: Envío correcto al backend**<br>**Dado** que se usa `getBackendGenre(genre)` para mapear valores,<br>**Cuando** se envía un formulario con el género musical seleccionado,<br>**Entonces** el backend recibe el identificador esperado sin error de validación. |
+| TS46 | Implementar clase base Usuario y subtipos Musico y Promotor | Como desarrollador backend, quiero implementar la clase base `Usuario` y sus subtipos `Musico` y `Promotor` siguiendo el **diagrama de clases**, para reflejar adecuadamente los roles en el sistema. | **Escenario 1: Herencia estructurada**<br>**Dado** el diseño del **diagrama de clases**,<br>**Cuando** se implementan las clases `Musico` y `Promotor`,<br>**Entonces** deben heredar correctamente de `Usuario`.<br><br>**Escenario 2: Métodos específicos**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se invoca un método específico como `publicarEvento()`,<br>**Entonces** este debe funcionar como se diseñó. |
+| TS47 | Modelar entidad Evento con métodos de interacción | Como desarrollador backend, quiero estructurar la clase `Evento` según el **diagrama de clases**, para registrar postulaciones y confirmar músicos. | **Escenario 1: Registro de postulación**<br>**Dado** el **diagrama de clases** que describe `Evento`,<br>**Cuando** se llama a `recibirPostulacion()`,<br>**Entonces** se debe registrar correctamente.<br><br>**Escenario 2: Confirmación de músico**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se llama a `confirmarMusico()`,<br>**Entonces** se asocia un músico confirmado. |
+| TS48 | Implementar entidad Contrato con firma y descarga | Como desarrollador backend, quiero crear la clase `Contrato` conforme al **diagrama de clases**, permitiendo firmar y descargar contratos como PDF. | **Escenario 1: Firma de contrato**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se invoca `firmar()`,<br>**Entonces** el estado del contrato cambia a firmado.<br><br>**Escenario 2: Descarga PDF**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se llama a `descargarPDF()`,<br>**Entonces** se genera el archivo correctamente. |
+| TS49 | Implementar pagos con adapter desacoplado | Como desarrollador backend, quiero usar el **diagrama de clases** para modelar `Pago` y `IPaymentAdapter`, y desacoplar el flujo de pagos. | **Escenario 1: Liberación de pago**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se invoca `liberarPago()`,<br>**Entonces** el estado debe pasar a liberado.<br><br>**Escenario 2: Integración del adaptador**<br>**Dado** el diseño con el **diagrama de clases**,<br>**Cuando** se usa `processPayment()`,<br>**Entonces** se ejecuta el proceso sin modificar la lógica de dominio. |
+| TS50 | Crear entidad Evaluacion entre usuarios | Como desarrollador backend, quiero modelar la clase `Evaluacion` usando el **diagrama de clases** para permitir retroalimentación entre usuarios. | **Escenario 1: Registro de evaluación**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se crea una evaluación con estrellas y comentario,<br>**Entonces** esta se almacena correctamente.<br><br>**Escenario 2: Restricción de duplicidad**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se intenta evaluar dos veces,<br>**Entonces** se debe evitar la duplicidad. |
+| TS51 | Registrar rider técnico del músico | Como desarrollador backend, quiero implementar la clase `RiderTecnico` basándome en el **diagrama de clases**, para registrar requerimientos técnicos del músico. | **Escenario 1: Subida del rider**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se llama a `subirRider()`,<br>**Entonces** se guardan requerimientos y archivo.<br><br>**Escenario 2: Comentarios del promotor**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se accede al rider técnico,<br>**Entonces** el promotor puede añadir comentarios. |
+| TS52 | Validar autenticación con interfaz desacoplada | Como desarrollador backend, quiero validar credenciales usando `IAuthenticationAdapter` descrito en el **diagrama de clases** para evitar acoplamientos. | **Escenario 1: Autenticación exitosa**<br>**Dado** el diseño del **diagrama de clases**,<br>**Cuando** se llama `authenticate()` con datos válidos,<br>**Entonces** el usuario es autenticado.<br><br>**Escenario 2: Fallo de autenticación**<br>**Dado** el **diagrama de clases**,<br>**Cuando** los datos son inválidos,<br>**Entonces** se retorna false. |
+| TS53 | Asociar roles de usuario al iniciar sesión | Como desarrollador backend, quiero que el inicio de sesión detecte roles `Musico` o `Promotor`, conforme al **diagrama de clases**. | **Escenario 1: Detección de rol**<br>**Dado** el **diagrama de clases**,<br>**Cuando** el usuario inicia sesión,<br>**Entonces** se reconoce si es músico o promotor.<br><br>**Escenario 2: Vista personalizada**<br>**Dado** el **diagrama de clases**,<br>**Cuando** se identifica el rol,<br>**Entonces** se redirige a su interfaz correspondiente. |
+| TS54 | Validar modelo entidad-relación para implementación en base de datos | Como desarrollador, quiero validar el **diagrama entidad‑relación (ER)** para garantizar la integridad de claves y relaciones entre tablas del sistema. | **Escenario: Validación ER**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se revisan sus claves primarias y foráneas,<br>**Entonces** se garantiza la integridad referencial entre tablas. |
+| TS55 | Normalizar tabla Evento con relaciones múltiples | Como desarrollador backend, quiero asegurar que la tabla `Evento` esté normalizada y conforme al **diagrama entidad‑relación (ER)**. | **Escenario: Validación de relaciones**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se establece relación entre evento, promotor y contratos,<br>**Entonces** las claves foráneas deben coincidir. |
+| TS56 | Asociar Evaluación a Evento y Usuarios | Como desarrollador backend, quiero asociar evaluaciones a eventos y usuarios evaluador/evaluado, usando el **diagrama entidad‑relación (ER)**. | **Escenario 1: Registro correcto**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se registra una evaluación,<br>**Entonces** se vincula correctamente a evento y usuarios.<br><br>**Escenario 2: Restricción de duplicado**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se intenta duplicar la evaluación,<br>**Entonces** se debe rechazar. |
+| TS57 | Implementar tabla RiderTecnico vinculada a Musico | Como desarrollador backend, quiero implementar la tabla `RiderTecnico` de acuerdo al **diagrama entidad‑relación (ER)**, relacionada con `Musico`. | **Escenario 1: Inserción de rider**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se crea un rider,<br>**Entonces** debe incluir referencia al músico correspondiente. |
+| TS58 | Establecer flujo contractual mediante FK en Contrato | Como desarrollador backend, quiero definir la tabla `Contrato` con FKs hacia `Evento`, `Musico` y `Promotor` según el **diagrama entidad‑relación (ER)**. | **Escenario: Integridad referencial**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se crea un contrato,<br>**Entonces** se deben validar las referencias a las tres tablas vinculadas. |
+| TS59 | Diseñar estructura de pagos asociada al contrato | Como desarrollador backend, quiero estructurar la tabla `Pago` conforme al **diagrama entidad‑relación (ER)** y asociarla a `Contrato`. | **Escenario 1: Registro del pago**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se registra un nuevo pago,<br>**Entonces** se debe vincular con el contrato correspondiente y mantener el estado. |
+| TS60 | Verificar unicidad de usuario en roles Musico y Promotor | Como desarrollador backend, quiero asegurar con base en el **diagrama entidad‑relación (ER)** que un `Usuario` pertenezca solo a un rol. | **Escenario 1: Validación de exclusividad**<br>**Dado** el **diagrama entidad‑relación (ER)**,<br>**Cuando** se registra un nuevo músico o promotor,<br>**Entonces** se debe verificar que no pertenezca a ambos roles simultáneamente. |
+| TS61  | Diagramar contexto del sistema TocaAquí                               | Como desarrollador, quiero construir el **diagrama de contexto C4**, para representar las interacciones externas del sistema, incluyendo usuarios y servicios conectados.        | **Escenario 1: Relaciones visibles**<br>**Dado** que el sistema interactúa con actores como artista, venue y servicios externos,<br>**Cuando** se visualice el diagrama,<br>**Entonces** se debe mostrar claramente la relación entre la plataforma y cada entidad externa involucrada.                                       |
+| TS62  | Representar arquitectura de contenedores                               | Como desarrollador, quiero definir el **diagrama de contenedores C4**, para reflejar la separación de responsabilidades entre capas del sistema, como API, aplicación y dominio. | **Escenario 1: Estructura modular**<br>**Dado** que el backend está organizado por capas,<br>**Cuando** se consulte el diagrama de contenedores,<br>**Entonces** deben verse los roles de cada capa (API REST, capa de aplicación, dominio, infraestructura y base de datos).                                                    |
+| TS63  | Diagramar componentes REST principales                                 | Como desarrollador, quiero modelar los controladores principales en un **diagrama de componentes**, para representar sus responsabilidades y relaciones entre sí.                | **Escenario 1: Componentes REST visibles**<br>**Dado** que existen controladores como `UsersController` y `PaymentsController`,<br>**Cuando** se visualice el diagrama,<br>**Entonces** deben mostrarse sus conexiones y dependencias de forma clara.                                                                 |
+| TS64  | Descomponer contexto de eventos en componentes CQRS                   | Como desarrollador, quiero reflejar el **contexto de eventos** separando comandos y queries, siguiendo el patrón CQRS.                                                           | **Escenario 1: Separación de comandos y consultas**<br>**Dado** que el sistema maneja creación y consultas de eventos,<br>**Cuando** se revise el diagrama,<br>**Entonces** debe observarse claramente qué componentes gestionan escritura y cuáles lectura, junto con sus respectivos repositorios.                        |
+| TS65  | Modelar componentes del contexto de usuarios (IAM)                    | Como desarrollador, quiero representar los servicios de autenticación del sistema en un **diagrama de componentes IAM**, para asegurar el control de identidad.                  | **Escenario 1: Servicios bien definidos**<br>**Dado** que el sistema usa JWT y hashing de contraseñas,<br>**Cuando** se vea el diagrama,<br>**Entonces** deben estar visibles los componentes como `TokenService`, `UserRepository` y `HashingService` y cómo interactúan entre sí.                                             |
+| TS66  | Representar componentes del contexto de pagos                         | Como desarrollador, quiero diseñar el **Payments Context** con servicios de comandos y consultas para reflejar el flujo financiero dentro de la plataforma.                      | **Escenario 1: Componentes de pagos diferenciados**<br>**Dado** que se necesita manejar creación y consulta de pagos,<br>**Cuando** se observe el diagrama,<br>**Entonces** deben diferenciarse claramente `PaymentCommandService`, `PaymentQueryService` y `PaymentRepository`.                                                  |
+| TS67  | Integrar todos los contextos en una vista arquitectónica común        | Como desarrollador, quiero unir los contextos de eventos, usuarios y pagos en una sola vista arquitectónica, para entender su comunicación global.                              | **Escenario 1: Vista integral de contextos**<br>**Dado** que existen múltiples contextos separados,<br>**Cuando** se integre el modelo,<br>**Entonces** deben visualizarse claramente sus relaciones e interacciones internas (por ejemplo, eventos relacionados a pagos y usuarios asociados).                                |
+
+## 3.3. Product Backlog.
+
+| Orden | User Story Id | Título                                                   | Descripción                                                                                                                                                   | Story Points (1/2/3/5/8) |
+|-------|----------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| 1     | US01          | Visualización clara del propósito de la plataforma | Como visitante de ambos segmentos, quiero entender rápidamente qué es TocaAquí y cómo funciona, para saber si es relevante para mí como artista o local. | 3 |
+| 2     | US02          | Navegación fluida entre secciones informativas | Como visitante de ambos segmentos, quiero navegar entre secciones como Sobre Nosotros o Planes desde el menú principal, para explorar fácilmente la solución. | 3 |
+| 3     | US03          | Visualización adecuada en móviles y pantallas pequeñas | Como visitante de ambos segmentos, quiero que el sitio se adapte bien a mi celular o tablet, para tener una buena experiencia sin importar el dispositivo. | 5 |
+| 4     | US04          | Acceso a la versión en inglés del sitio | Como visitante de ambos segmentos (extranjero), quiero ver la página en inglés, para comprender toda la información sin barreras de idioma. | 3 |
+| 5     | US05          | Envío de un mensaje a través del formulario de contacto | Como visitante de ambos segmentos con dudas, quiero enviar un mensaje desde el formulario de contacto, para comunicarme fácilmente con el equipo de TocaAquí. | 2 |
+| 6     | US06          | Selección del tipo de usuario desde la landing | Como visitante de ambos segmentos interesado, quiero seleccionar si soy artista o promotor desde la landing, para empezar mi registro de forma adecuada. | 3 |
+| 7     | US21          | Visualización de planes para artistas y promotores/locales | Como visitante de ambos segmentos, quiero ver claramente los diferentes planes disponibles para artistas y promotores/locales, para decidir cuál se adapta mejor a mis necesidades. | 3 |
+| 8     | US22          | Acceso rápido a registro desde botones CTA | Como visitante de ambos segmentos interesado, quiero encontrar botones claros para registrarme como artista o como local, para comenzar a usar la plataforma con un clic. | 2 |
+| 9     | US23          | Navegación accesible desde menú fijo | Como visitante de ambos segmentos, quiero contar con un menú que permanezca visible mientras navego, para poder acceder fácilmente a cualquier sección de la página. | 3 |
+| 10    | US24          | Visualización del equipo de desarrollo en la landing | Como visitante de ambos segmentos curioso, quiero conocer al equipo de personas que desarrolla TocaAquí, para sentir mayor confianza en la solución. | 2 |
+| 11    | US25          | Visualización de testimonios de usuarios | Como visitante de ambos segmentos, quiero ver testimonios de artistas y promotores en la landing, para generar confianza en la calidad y efectividad de la plataforma. | 3 |
+| 12    | US26          | Botón de Call to Action "Enviar" en la sección de "Contáctanos" | Como visitante de ambos segmentos, quiero ver el botón de "Enviar" en la sección "Contáctanos", para poder enviar mis dudas o consultas directamente a la plataforma. | 2 |
+| 13     | TS01          | Estructura básica de la landing page | Como desarrollador, quiero que la landing page de TocaAquí tenga una estructura HTML básica para una presentación clara y ordenada. | 3 |
+| 14     | TS02          | Diseño responsivo de la landing page | Como desarrollador, quiero que la landing page sea completamente responsiva para garantizar su correcta visualización en diferentes dispositivos. | 5 |
+| 15     | TS03          | Integración de imágenes y multimedia | Como desarrollador, quiero integrar imágenes y otros elementos multimedia en la landing page para mejorar la estética y presentación. | 3 |
+| 16     | TS04          | Implementación de animaciones y transiciones | Como desarrollador, quiero agregar animaciones y transiciones suaves en la landing page para mejorar la experiencia de usuario. | 5 |
+| 17     | TS05          | Implementación de formularios de contacto | Como desarrollador, quiero que los usuarios puedan contactar con el equipo a través de un formulario en la landing page. | 3 |
+| 18     | TS06          | Despliegue de la Landing Page en GitHub Pages | Como desarrollador, quiero desplegar la landing page de TocaAquí en GitHub Pages para que esté accesible públicamente. | 2 |
+
+## 3.4. Impact Mapping.
+
+![Impact Mapping](https://imgur.com/e7klg9u.png)
