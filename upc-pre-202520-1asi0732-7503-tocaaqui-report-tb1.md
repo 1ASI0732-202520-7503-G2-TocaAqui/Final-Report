@@ -1221,4 +1221,18 @@ Los resultados de búsqueda serán personalizados y ordenados de acuerdo a:
 - Coincidencia con criterios del usuario  
 - Popularidad y reseñas  
 - Disponibilidad inmediata  
-- Afinidad con eventos anteriores contratados por el usuario
+- Afinidad con eventos anteriores contratados por el usuario.
+
+
+### 4.2.5. Navigation Systems
+
+El Sistema de Navegación es la estructura que permite a los usuarios desplazarse eficientemente entre las distintas secciones y páginas de la aplicación  
+
+**Estructura de navegación:**  El Sistema de Navegación constará de las siguientes secciones principales en la barra de navegación
+
+-  Home
+-  Abour Us
+-  Packages
+-  Cotact Us
+-  Es
+-  Start Now
