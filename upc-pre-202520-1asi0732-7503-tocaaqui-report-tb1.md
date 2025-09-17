@@ -1074,4 +1074,72 @@ Siguiendo este patrón, ubicamos el logotipo de TocaAquí en la esquina superior
 La arquitectura de información es esencial para organizar y estructurar el contenido de manera que sea fácilmente accesible y comprensible para los usuarios de la plataforma TocaAquí. En esta sección, se presentan los sistemas de organización, etiquetado, etiquetas SEO y metaetiquetas, sistemas de búsqueda y navegación que guiarán la experiencia del usuario. Estas directrices están diseñadas para mejorar la usabilidad, promover la exploración fluida del contenido y garantizar que cada usuario —ya sea músico o promotor— encuentre rápidamente lo que necesita.
 
 
+### 4.2.1. Organization Systems.
+
+Los sistemas de organización que se implementarán en **TocaAquí** responden a distintos contextos de uso y tipos de contenido que ofrece la plataforma. A continuación, se describen los tipos de organización aplicados y los esquemas de categorización adoptados:
+
+**Organización Jerárquica (Visual Hierarchy)**
+
+Se utilizará para estructurar la **navegación principal** y secciones clave como:
+
+- **Inicio**
+- **Explorar Eventos**
+- **Perfil del Usuario (Músico / Promotor)**
+- **Agenda / Contratos / Pagos**
+
+Este modelo permite descomponer la información desde niveles generales a específicos  
+(por ejemplo: "Explorar Eventos" → "Por Género Musical" → "Rock / Jazz / Cumbia").
+
+**Organización Secuencial (Step-by-Step)**
+
+Aplicada en flujos que requieren que el usuario siga pasos lógicos y cronológicos, como:
+
+- **Publicar un evento** (para locales/promotores)
+- **Postular a un evento** (para músicos)
+- **Proceso de firma de contrato y pagos**
+
+Este modelo guía al usuario en tareas complejas, asegurando que cada paso sea completado antes de continuar.
+
+**Organización Matricial**
+
+Utilizada en las interfaces de exploración de eventos o perfiles, donde los usuarios podrán:
+
+- **Filtrar por múltiples criterios** (género, ubicación, fecha, tipo de espacio)
+- **Comparar distintos resultados** en base a atributos visibles (rating, disponibilidad, tipo de música)
+
+La combinación flexible de filtros permite una navegación personalizada y precisa.
+
+
+**Esquemas de Categorización**
+
+Para facilitar aún más la exploración, el contenido se clasificará con base en diferentes esquemas según el contexto:
+
+- **Por Tópico:**  
+  Utilizado en secciones como *blog*, *centro de ayuda* o *categorías musicales* (ej. “Rock”, “Jazz”, “Electrónica”).
+
+- **Por Audiencia:**  
+  El contenido diferenciado para **músicos** y **promotores** será organizado en menús y vistas personalizadas, destacando las funciones que cada uno utiliza más frecuentemente.
+
+- **Cronológico:**  
+  Aplicado en la **agenda de eventos**, **historial de contrataciones** y **publicaciones recientes**.
+
+- **Alfabético:**  
+  Utilizado en listados como **directorios de bandas o lugares registrados**, para facilitar búsquedas directas.
+
+### 4.2.2. Labeling Systems
+
+Los sistemas de etiquetado son fundamentales para facilitar la navegación, mejorar la búsqueda interna del producto y optimizar la visibilidad del sitio en motores de búsqueda (SEO). En **TocaAquí**, se aplican diversas estrategias de etiquetado, tanto para la interfaz del usuario como para el contenido a nivel de código HTML.
+
+**Tipos de Etiquetado**
+
+- **Etiquetado Descriptivo:**  
+  Se utilizarán etiquetas claras y específicas que describen el contenido o funcionalidad de cada sección, por ejemplo: *"Explorar Eventos"*, *"Postular a Evento"*, *"Mis Contratos"*. Esto permitirá a los usuarios comprender rápidamente el propósito de cada página o módulo.
+
+- **Etiquetado por Audiencia:**  
+  La plataforma adapta sus etiquetas y menús según el tipo de usuario (Músico o Promotor), presentando términos relevantes para cada uno, como por ejemplo *"Mi Rider Técnico"* (para músicos) o *"Publicar Nueva Fecha"* (para locales).
+
+- **Etiquetado por Popularidad o Relevancia:**  
+  Se implementarán etiquetas dinámicas en secciones como *Eventos Destacados* o *Músicos Populares*, determinadas por la cantidad de interacciones, visitas o calificaciones. Estas etiquetas ayudarán a los usuarios a identificar rápidamente los contenidos más relevantes o valorados por la comunidad.
+  
+
 
