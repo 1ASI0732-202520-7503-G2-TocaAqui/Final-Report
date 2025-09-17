@@ -81,7 +81,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
   - 3.3. [Product Backlog](#33-product-backlog)  
   - 3.4. [Impact Mapping](#34-impact-mapping)  
 
-- 4. [Capítulo IV: Product Design](#4-capítulo-iv-product-design)  
+- 4. [Capítulo IV: Product Design](#capítulo-iv-product-design)  
   - 4.1. [Style Guidelines](#41-style-guidelines)  
     - 4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
     - 4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
@@ -1020,3 +1020,12 @@ Este glosario reúne los términos clave utilizados en el desarrollo y uso de la
 ## 3.4. Impact Mapping.
 
 ![Impact Mapping](https://imgur.com/e7klg9u.png)
+
+# Capítulo IV: Product Design 
+
+El **product design** es el proceso de crear un producto funcional y atractivo, considerando la experiencia del usuario, la estética y la usabilidad. Busca resolver problemas de manera efectiva, asegurando que el producto sea fácil de usar y satisfactorio para el cliente.
+
+## 4.1. Style Guidelines.
+
+Un **Style Guideline** es un conjunto de normas y directrices que establecen cómo deben presentarse de manera consistente los elementos visuales y textuales en un proyecto. Esto incluye tipografía, colores, espaciado, tono de voz y otros detalles que garantizan una comunicación coherente y uniforme a lo largo del proyecto.
+
