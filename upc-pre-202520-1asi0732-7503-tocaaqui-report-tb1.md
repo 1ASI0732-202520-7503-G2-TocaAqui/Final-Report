@@ -1058,6 +1058,20 @@ El espaciado en TocaAquí ha sido cuidadosamente diseñado para asegurar una int
 
 ![Spancing](https://i.imgur.com/xcoqUkm.png)
 
-
 Un **Style Guideline** es un conjunto de normas y directrices que establecen cómo deben presentarse de manera consistente los elementos visuales y textuales en un proyecto. Esto incluye tipografía, colores, espaciado, tono de voz y otros detalles que garantizan una comunicación coherente y uniforme a lo largo del proyecto.
+
+### 4.1.2. Web Style Guidelines
+
+Para TocaAquí, estamos desarrollando una plataforma web responsiva que se adapta a distintos dispositivos, como laptops, tablets y smartphones. Esta decisión responde a la necesidad de brindar una experiencia accesible y fluida para músicos, promotores y usuarios desde cualquier lugar.
+
+Hemos decidido implementar el patrón de diseño en forma de Z, un enfoque visual que facilita el recorrido del ojo humano a través de la interfaz. Este patrón guía al usuario hacia los elementos más importantes de la página, mejorando la retención de información y la interacción con el contenido.
+
+Siguiendo este patrón, ubicamos el logotipo de TocaAquí en la esquina superior izquierda, asegurando visibilidad inmediata de la marca. En la esquina superior derecha, colocamos la barra de navegación junto a un botón de acción destacado, como “Publicar Evento” o “Unirse como Músico”, fomentando así la participación activa de los usuarios.
+
+
+## 4.2. Information Architecture.
+
+La arquitectura de información es esencial para organizar y estructurar el contenido de manera que sea fácilmente accesible y comprensible para los usuarios de la plataforma TocaAquí. En esta sección, se presentan los sistemas de organización, etiquetado, etiquetas SEO y metaetiquetas, sistemas de búsqueda y navegación que guiarán la experiencia del usuario. Estas directrices están diseñadas para mejorar la usabilidad, promover la exploración fluida del contenido y garantizar que cada usuario —ya sea músico o promotor— encuentre rápidamente lo que necesita.
+
+
 
