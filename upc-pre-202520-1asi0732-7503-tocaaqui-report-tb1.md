@@ -1769,7 +1769,7 @@ Para desplegar la **Landing Page** del proyecto **TocaAquí** usando **GitHub Pa
 
 1. **Ubicar el repositorio del proyecto**  
    Se accede al repositorio público alojado en GitHub que contiene el código fuente del sitio:  
-   ![Paso 1](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/develop)/assets/Deploy-first.png)
+   ![Paso 1](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/develop/assets/Deploy-first.png)
 
 2. **Ir a la sección de configuración (Settings)**  
    En la barra superior del repositorio, se hace clic en la pestaña **Settings**.
@@ -1795,5 +1795,21 @@ Una vez configurado, GitHub genera automáticamente la URL pública del sitio, q
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 ### 5.2.7. RESTful API documentation
 ### 5.2.8. Team Collaboration Insights
+
+Durante el desarrollo del Sprint 1, se evidenció una participación activa y distribuida entre los integrantes del equipo, reflejada tanto en la frecuencia de commits como en las funcionalidades aportadas. En total, se realizaron 39 commits, los cuales fueron generados por 1 autor, destacando la colaboración en ramas específicas como feature/about-us, feature/navbar y develop, todas correctamente integradas mediante pull requests.
+
+| Integrante             | Commits | Líneas añadidas | Líneas eliminadas | Áreas de contribución principales                                                                 |
+|------------------------|---------|------------------|--------------------|---------------------------------------------------------------------------------------------------|
+| fabrizzioper           | 39       | 2896              | 929                  | Estructura y estilos de la sección experiencia                                                    |
+
+
+Commits:
+![Commits](../../assets/commits.png)
+
+Analiticas de Colaboración:
+![Contributors](../../assets/contributors.png)
+
+
+
 ## 5.3. Video About-the-Product
 
