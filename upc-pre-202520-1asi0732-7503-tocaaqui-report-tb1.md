@@ -119,8 +119,7 @@ En esta entrega el equipo definió las bases del tema que se trabajará en el ci
     - 4.9.1. [Class Diagrams](#491-class-diagrams)  
     - 4.9.2. [Class Dictionary](#492-class-dictionary)  
   - 4.10. [Database Design](#410-database-design)  
-    - 4.10.1. [Relational/Non-Relational Database Diagram](#4101-relational-non-relational-database-diagram)  
-  
+    - 4.10.1. [Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram) 
   - 5. [Capítulo V: Product Implementation](#5-capítulo-v-product-implementation)  
     - 5.1. [Software Configuration Management](#51-software-configuration-management)  
       - 5.1.1. [Software Development Environment Configuration](#511-software-development-environment-configuration)  
@@ -1495,3 +1494,160 @@ Prototipo de la aplicación web TocaAquí en Figma: [Prototipo de la aplicación
 ### 4.8.3. Software Architecture Components Diagrams.
 
 ![component_diagram](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/component-diagram.png)
+
+## 4.9. Software Object-Oriented Design.
+
+En esta sección, presentamos el diagrama de clases y la implementación de diversos patrones de diseño para optimizar la estructura y la eficiencia del sistema.
+
+### 4.9.1. Class Diagrams.
+
+El siguiente diagrama representa la estructura de clases basada en Domain-Driven Design (DDD) para la plataforma TocaAquí, que conecta músicos con promotores culturales para facilitar la organización de eventos.
+
+1. Dominio: Usuario
+Incluye la clase base Usuario, de la cual heredan las entidades Musico y Promotor. Cada subclase contiene atributos y métodos específicos de su rol:
+
+Musico: puede postular a eventos y subir su rider técnico.
+
+Promotor: puede publicar eventos y revisar postulaciones.
+
+2. Dominio: Evento
+La clase Evento agrupa la información del show, como título, fecha, género y pago ofrecido. Está asociada tanto a músicos como a promotores a través de postulaciones y confirmaciones.
+
+3. Dominio: Contrato y Pago
+El contrato digital se representa mediante la clase Contrato, la cual vincula a un músico, un promotor y un evento. Cada contrato puede tener asociado un Pago, el cual refleja el estado de la transacción (pendiente, en escrow, liberado). Se utiliza una interfaz IPaymentAdapter para mantener desacoplada la lógica de pagos.
+
+4. Dominio: Logística y Evaluación
+Incluye:
+
+RiderTecnico: contiene los requerimientos técnicos del músico.
+
+Evaluacion: permite a los usuarios evaluarse mutuamente al finalizar un evento.
+
+5. Interfaces de Infraestructura
+IAuthenticationAdapter: define la abstracción para el proceso de autenticación.
+
+IPaymentAdapter: define la abstracción para el procesamiento de pagos, permitiendo integrar múltiples proveedores sin alterar la lógica de dominio.
+
+Relación entre clases
+Se modelan relaciones de herencia, asociación y uso entre entidades, promoviendo una arquitectura clara, modular y alineada con los principios de responsabilidad única y bajo acoplamiento.
+
+![Class Diargam](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Class_Diagram.png)
+
+### 4.9.2. Class Dictionary
+
+A continuación se presenta la descripción de las clases principales del dominio, con sus atributos y métodos:
+
+#### Usuario
+| Atributos  | Tipo       |
+| ---------- | ---------- |
+| id         | UUID       |
+| nombre     | string     |
+| correo     | string     |
+| contrasena | string     |
+| rol        | RolUsuario |
+
+| Métodos     | Descripción                                                  |
+| ----------- | ------------------------------------------------------------ |
+| login()     | Verifica las credenciales de un usuario. Devuelve `boolean`. |
+| registrar() | Registra un nuevo usuario en el sistema.                     |
+
+#### Musico
+| Atributos       | Tipo     |
+| --------------- | -------- |
+| nombreArtistico | string   |
+| estiloMusical   | string   |
+| biografia       | string   |
+| redesSociales   | string[] |
+
+| Métodos          | Descripción                                   |
+| ---------------- | --------------------------------------------- |
+| subirRider()     | Permite al músico subir su rider técnico.     |
+| postularEvento() | Envía una postulación a un evento disponible. |
+
+#### Promotor
+| Atributos          | Tipo     |
+| ------------------ | -------- |
+| nombreLocal        | string   |
+| direccion          | string   |
+| aforo              | int      |
+| tipoMusicaAceptada | string[] |
+
+| Métodos                | Descripción                                          |
+| ---------------------- | ---------------------------------------------------- |
+| publicarEvento()       | Publica un nuevo evento en la plataforma.            |
+| revisarPostulaciones() | Revisa las postulaciones recibidas para sus eventos. |
+
+#### Evento
+| Atributos    | Tipo         |
+| ------------ | ------------ |
+| id           | UUID         |
+| titulo       | string       |
+| descripcion  | string       |
+| fecha        | DateTime     |
+| estado       | EstadoEvento |
+| genero       | string       |
+| pagoOfrecido | float        |
+
+| Métodos              | Descripción                                          |
+| -------------------- | ---------------------------------------------------- |
+| recibirPostulacion() | Registra la postulación de un músico al evento.      |
+| confirmarMusico()    | Confirma la participación de un músico en el evento. |
+
+#### Contrato
+| Atributos | Tipo           |
+| --------- | -------------- |
+| id        | UUID           |
+| evento    | Evento         |
+| musico    | Musico         |
+| promotor  | Promotor       |
+| estado    | EstadoContrato |
+
+| Métodos        | Descripción                                    |
+| -------------- | ---------------------------------------------- |
+| firmar()       | Cambia el estado del contrato a “FIRMADO”.     |
+| descargarPDF() | Genera y descarga la versión PDF del contrato. |
+
+#### Pago
+| Atributos | Tipo       |
+| --------- | ---------- |
+| id        | UUID       |
+| contrato  | Contrato   |
+| monto     | float      |
+| estado    | EstadoPago |
+
+| Métodos       | Descripción                                                  |
+| ------------- | ------------------------------------------------------------ |
+| liberarPago() | Cambia el estado del pago a “LIBERADO” y notifica al músico. |
+
+#### RiderTecnico
+| Atributos           | Tipo   |
+| ------------------- | ------ |
+| id                  | UUID   |
+| requerimientos      | string |
+| archivoAdjunto      | string |
+| comentariosPromotor | string |
+
+| Métodos   | Descripción                                        |
+| --------- | -------------------------------------------------- |
+| (ninguno) | Se maneja como objeto de datos dentro de `Musico`. |
+
+#### Evaluacion
+| Atributos  | Tipo    |
+| ---------- | ------- |
+| id         | UUID    |
+| evaluador  | Usuario |
+| evaluado   | Usuario |
+| estrellas  | int     |
+| comentario | string  |
+
+| Métodos   | Descripción                                                              |
+| --------- | ------------------------------------------------------------------------ |
+| (ninguno) | Se crea y almacena desde la lógica de aplicación al finalizar un evento. |
+
+## 4.10 Database Design
+
+El siguiente diagrama entidad‑relación (ER) muestra las tablas principales con claves primarias (PK), claves foráneas (FK) y relaciones ajustadas:
+
+### 4.10.1. Relational/Non-Relational Database Diagram
+
+![Data Base Diargam](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/DB_Diagram.png)
