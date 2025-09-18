@@ -1223,7 +1223,6 @@ Los resultados de búsqueda serán personalizados y ordenados de acuerdo a:
 - Disponibilidad inmediata  
 - Afinidad con eventos anteriores contratados por el usuario.
 
-
 ### 4.2.5. Navigation Systems
 
 El Sistema de Navegación es la estructura que permite a los usuarios desplazarse eficientemente entre las distintas secciones y páginas de la aplicación  
@@ -1236,3 +1235,263 @@ El Sistema de Navegación es la estructura que permite a los usuarios desplazars
 -  Cotact Us
 -  Es
 -  Start Now
+
+ 
+### 4.3. Landing Page UI Design.
+
+#### 4.3.1 Landing Page Wireframe.
+
+Procederemos a mostrar el Landing Page Wireframe de la aplicación:
+
+![Landing_page](https://i.imgur.com/q66kyCx.png)
+
+
+#### 4.3.2 Landing Page Mock-up.
+
+Procederemos a mostrar el Landing Page Mock-up de la aplicación:
+
+![Landing_page](https://imgur.com/HhnbfRt.png)
+
+## 4.6. Web Applications UX/UI Design.
+
+### 4.6.1. Web Applications Wireframes.
+
+En esta sección se muestran los wireframes realizados para nuestro Web Application.
+
+Login
+
+![Login](https://imgur.com/BbQZlE7.png)
+
+Panel de control del artista
+
+![Artisit_Dashboard](https://imgur.com/arTPxkP.png)
+
+Perfil del artista
+
+![Artist_Profile](https://imgur.com/iGNIkDo.png)
+
+Perfil del productor
+
+![Productor_Profile](https://imgur.com/1BGUWzy.png)
+
+Agenda
+
+![Agenda](https://imgur.com/G8j4mfx.png)
+
+Postulaciones
+
+![Postulaciones](https://imgur.com/DYUZfEs.png)
+
+Panel de control del productor
+
+![Productor_Dashboard](https://imgur.com/9k49F2u.png)
+ 
+ Este es para el promotor del evento 
+
+![Evaluacion_post_evento_Promotor](https://imgur.com/rtgK7xf.png)
+
+![Evaluacion_post_evento_Promotor_(1)](https://imgur.com/Pd8hqmg.png)
+
+Este es para el artista del evento 
+
+![Evaluacion_post_evento_Músico](https://imgur.com/jbqUFfk.png)
+
+![Evalucion_post_evento_Músico](https://imgur.com/nwtiFJX.png)
+
+![Evaluacion_post_evento_Músico](https://imgur.com/rtgK7xf.png)
+
+![Evaluacion_post_evento_Músico](https://imgur.com/Pd8hqmg.png)
+
+Promoción del evento y entradas
+
+![Promocion_del_evento_y_entradas](https://imgur.com/IPoNLHM.png)
+
+![Promocion_del_evento_y_entradas_(1)](https://imgur.com/0sKjKTL.png)
+
+![Promocion_del_evento_y_entradas_(2)](https://imgur.com/YW7ZKWD.png)
+
+![Promocion_del_evento_y_entradas_(3)](https://imgur.com/Nu0AHuD.png)
+
+![Promocion_del_evento_y_entradas_(4)](https://imgur.com/aVktFHt.png)
+
+![Promocion_del_evento_y_entradas_(5)](https://imgur.com/RxwtbEq.png)
+
+![Promocion_del_evento_y_entradas_(6)](https://imgur.com/mCXCueE.png)
+
+Pagos promotor
+
+![Pagos_Promotor](https://imgur.com/vKI9uRS.png)
+
+![Pagos_Promotor_(1)](https://imgur.com/RVVbXzC.png)
+
+Pagos artista
+
+![Pago_artista](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Pagos%20artista.png)
+
+![Pago_artista_(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Pagos%20artista%20(1).png)
+
+Contrato Digital
+
+![Contrato_Digital](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Contrato%20Digital.png)
+
+![Contrato_Digital_(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Contrato%20Digital%20(1).png)
+
+![Contrato_Digital_(2)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Contrato%20Digital%20(2).png)
+
+Rider Tecnico/Logistico
+
+![Logistico](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Logistico.png)
+
+![Logistico_(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Logistico(1).png)
+
+![Logistico_(2)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Logistico(2).png)
+
+![Logistica_(3)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Logistico(3).png)
+
+### 4.6.2. Web Applications Wireflow Diagrams.
+
+Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, experiencia de usuario y especialmente para aplicaciones que involucran flujos de trabajo e interacciones complejas.
+
+![Diagramaflujo](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Diagramaflujo.png)
+
+[Ver diseño en el Figma](https://www.figma.com/design/AjVj0voSeYy8l8zlp8r2qw/WebApp-TocaAqu%C3%AD?node-id=6-5&t=XKJsUX7ZY7xft6LO-1)
+
+### 4.6.3. Web Applications Mock-ups.
+
+En esta sección se muestran los mock-ups realizados para nuestro Web Application.
+
+Login
+
+![Login_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Login_Mock.png)
+
+Panel de control del artista
+
+![Artisit_Dashboard_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Artisit%20Dashboard%20Mock.png)
+
+Perfil del artista
+
+![Artist_Profile_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Artist%20Profile%20Mock.png)
+
+Perfil del productor
+
+![Productor_Profile_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Productor%20Profile%20Mock.png)
+
+Agenda
+
+![Agenda_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Agenda%20Mock.png)
+
+Postulaciones
+
+![Postulaciones_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Postulaciones%20Mock.png)
+
+Panel de control del productor
+
+![Panel_de_control_del_productor_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Productor%20Dashboard%20Mock.png)
+ 
+ Este es para el promotor del evento 
+
+![Promotor_del_evento_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluación%20%20post%20evento%20Promotor%20Mock.png)
+
+![Promotor_del_evento_Mock_(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluación%20%20post%20evento%20Promotor%20Mock%20(1).png)
+
+Este es para el artista del evento 
+
+![Artista_del_evento_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluación%20%20post%20evento%20Musico%20Mock.png)
+
+![Artista_del_evento_Mock_(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluación%20%20post%20evento%20Musico%20Mock%20(1).png)
+
+![Artista_del_evento_Mock_(2)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluación%20%20post%20evento%20Músico%20Mock%20(2).png)
+
+![Artista_del_evento_Mock_(3)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluación%20%20post%20evento%20Músico%20Mock%20(3).png)
+
+Promoción del evento y entradas
+
+![Promocion_del_evento_y_entradas_Mock](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Promocion%20del%20evento%20y%20entradas%20Mock.png)
+
+![Promocion_del_evento_y_entradas_Mock_(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Promocion%20del%20evento%20y%20entradas%20Mock%20(1).png)
+
+![Promocion_del_evento_y_entradas_Mock_(2)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Promocion%20del%20evento%20y%20entradas%20Mock%20(2).png)
+
+![Promocion_del_evento_y_entradas_Mock_(3)](/assets/Promocion%20del%20evento%20y%20entradas%20mock%20(3).png)
+
+![Promocion_del_evento_y_entradas_Mock_(4)](/assets/Promocion%20del%20evento%20y%20entradas%20Mock(4).png)
+
+![Promocion_del_evento_y_entradas_Mock_(5)](/assets/Promocion%20del%20evento%20y%20entradas%20Mock%20(5).png)
+
+![Promocion_del_evento_y_entradas_Mock_(6)](/assets/Promocion%20del%20evento%20y%20entradas%20(6).png)
+
+Pagos promotor
+
+![Pagos_promotor_Mock](/assets/Pagos%20promotor%20Mock.png)
+
+![Pagos_promotor_Mock-(1)](/assets/Pagos%20promotor%20Mock%20(1).png)
+
+Pagos artista
+
+![Pagos_Artista_Mock](/assets/Pagos%20Artista%20Mock.png)
+
+![Pagos_Artista_Mock_(1)](/assets/Pagos%20Artista%20Mock%20(1).png)
+
+
+Rider Tecnico/Logistico
+
+![Rider(1)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(1).png)
+
+![Rider(2)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(2).png)
+
+![Rider(3)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(3).png)
+
+![Rider(4)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(4).png)
+
+![Rider(5)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(5).png)
+
+![Rider(6)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(6).png)
+
+![Rider(7)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(7).png)
+
+![Rider(8)](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider(8).png)
+
+### 4.6.4. Web Applications User Flow Diagrams.
+
+
+![Login_Registro](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Login_y_Registro.png)
+
+![Artiss_Dashboard_Agenda_Pago_Profiel](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Artists_Dashboard_Agenda_Pago_Profiel.png)
+
+![Rider](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Rider.png)
+
+![Evaluacion](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Evaluacion.png)
+
+![Productor_Dashboard_Profiel_Promocion](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Productor_Dashboard_Profiel_Promocion_de_evento.png)
+
+![Pago_promotor](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Pago_Promotor.png)
+
+
+![Promocion_de_evento_Evaluacion](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Promocion_de_eventos_Evaluacion.png)
+
+
+![Completo](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Completo.png)
+
+Figma Abajo:
+
+[Ver diseño en el Figma](https://www.figma.com/design/vOE8lxDrsjdFPbZlpCYQ6s/User-Flow-Diagram?node-id=0-1&t=0Zo3M5RPBfFGn8mL-1)
+
+## 4.7. Web Applications Prototyping.
+
+![Web Applications Prototyping](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/Web-applications-prototyping.png)
+
+Prototipo de la aplicación web TocaAquí en Figma: [Prototipo de la aplicación web TocaAquí en Figma](https://www.figma.com/design/AjVj0voSeYy8l8zlp8r2qw/WebApp-TocaAqu%C3%AD?node-id=6-5&t=S1oi45uo960HGuhM-1)
+
+
+## 4.8. Domain-Driven Software Architecture.
+## 4.8.1. Software Architecture Context Diagram.
+
+![Context_diagram](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/structurizr-Context.png)
+
+### 4.8.2. Software Architecture Container Diagrams.
+
+![Container_diagram](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/structurizr-TocaAqui_Containers.png)
+
+### 4.8.3. Software Architecture Components Diagrams.
+
+![component_diagram](https://raw.githubusercontent.com/1ASI0730-2510-4370-G1-TocaAqui/Final-Report/refs/heads/main/assets/component-diagram.png)
